@@ -1,0 +1,566 @@
+id,linea,grupo,tipo,marca,modelo,nombre,nombre_en,descripcion,descripcion_en,especificaciones,foto,ficha_pdf,precio_mxn,precio_usd,precio_eur,destacado,activo
+01001,rodamientos,,Rígido de bolas,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento rígido de bolas,,,,,img/tipos/rodamiento-rigido.webp,,,,,si,si
+01002,rodamientos,,Rígido de bolas 2RSR,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento rígido de bolas 2RSR,,,,,,,,,,no,si
+01003,rodamientos,,Rígido de bolas 2ZR,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento rígido de bolas 2ZR,,,,,,,,,,no,si
+01004,rodamientos,,Rígido de bolas doble,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento rígido de bolas doble,,,,,,,,,,no,si
+01005,rodamientos,,Cono y taza,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de cono y taza,,,,,,,,,,no,si
+01006,rodamientos,,Rodillos esféricos,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de rodillos esféricos,,,,,img/tipos/rodamiento-esferico.webp,,,,,si,si
+01007,rodamientos,,Rodillos cilíndricos,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de rodillos cilíndricos,,,,,,,,,,no,si
+01008,rodamientos,,Rodillos cónicos,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de rodillos cónicos,,,,,,,,,,no,si
+01009,rodamientos,,Axial a bolas,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento axial a bolas,,,,,,,,,,no,si
+01010,rodamientos,,Oscilante de rodillos axial,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento oscilante de rodillos axial,,,,,,,,,,no,si
+01011,rodamientos,,Contacto angular,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de contacto angular,,,,,,,,,,no,si
+01012,rodamientos,,Súper precisión,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de súper precisión,,,,,,,,,,no,si
+01013,rodamientos,,Agujas,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de agujas,,,,,,,,,,no,si
+01014,rodamientos,,Agrícolas,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento agrícola,,,,,,,,,,no,si
+01015,rodamientos,,Insertos,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento inserto,,,,,,,,,,no,si
+01016,rodamientos,,"Buje, tuerca y arandela",INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,"Buje, tuerca y arandela",,,,,,,,,,no,si
+01017,rodamientos,,Casquillos,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Casquillos,,,,,,,,,,no,si
+01018,rodamientos,,Rótulas,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento de rótula,,,,,,,,,,no,si
+01019,rodamientos,,Bipartidos,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Rodamiento bipartido,,,,,,,,,,no,si
+01020,rodamientos,,Coronas giratorias,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,,Coronas giratorias,,,,,,,,,,no,si
+02001,rodamientos-lineales,,Bola,INA|THK|HIWIN|Nadella|McGill|Thomson,,Rodamiento lineal de bola,,,,,,,,,,no,si
+02002,rodamientos-lineales,,Lineal con brida,INA|THK|HIWIN|Nadella|McGill|Thomson,,Rodamiento lineal con brida,,,,,,,,,,no,si
+02003,rodamientos-lineales,,Seguidores de levas,INA|THK|HIWIN|Nadella|McGill|Thomson,,Seguidores de levas,,,,,,,,,,no,si
+02004,rodamientos-lineales,,Rieles,INA|THK|HIWIN|Nadella|McGill|Thomson,,Rieles,,,,,,,,,,no,si
+02005,rodamientos-lineales,,Carrito de bolas,INA|THK|HIWIN|Nadella|McGill|Thomson,,Carrito de bolas,,,,,img/tipos/carrito-de-bolas.webp,,,,,si,si
+02006,rodamientos-lineales,,Carrito de rodillos,INA|THK|HIWIN|Nadella|McGill|Thomson,,Carrito de rodillos,,,,,,,,,,no,si
+02007,rodamientos-lineales,,Guiado lineal,INA|THK|HIWIN|Nadella|McGill|Thomson,,Guiado lineal,,,,,,,,,,no,si
+02008,rodamientos-lineales,,Guiado de miniatura,INA|THK|HIWIN|Nadella|McGill|Thomson,,Guiado de miniatura,,,,,,,,,,no,si
+02009,rodamientos-lineales,,Guiado por eje,INA|THK|HIWIN|Nadella|McGill|Thomson,,Guiado por eje,,,,,,,,,,no,si
+03001,chumaceras,Piso,Piso,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de piso,,,,,img/tipos/chumacera-piso.webp,,,,,si,si
+03002,chumaceras,Piso,Piso SS,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de piso SS,,,,,,,,,,no,si
+03003,chumaceras,Piso,Tipo E piso,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera tipo E piso,,,,,,,,,,no,si
+03004,chumaceras,Pared,Pared 2T,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de pared 2T,,,,,,,,,,no,si
+03005,chumaceras,Pared,Pared 3T,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de pared 3T,,,,,,,,,,no,si
+03006,chumaceras,Pared,Pared 4T,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de pared 4T,,,,,img/tipos/chumacera-pared-4t.webp,,,,,si,si
+03007,chumaceras,Pared,Pared 2T SS,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de pared 2T SS,,,,,,,,,,no,si
+03008,chumaceras,Pared,Pared 3T SS,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de pared 3T SS,,,,,,,,,,no,si
+03009,chumaceras,Pared,Pared 4T SS,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera de pared 4T SS,,,,,,,,,,no,si
+03010,chumaceras,Pared,Tipo E pared,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera tipo E pared,,,,,,,,,,no,si
+03011,chumaceras,Tensora,Tensora,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera tensora,,,,,,,,,,no,si
+03012,chumaceras,Tensora,Tipo E tensora,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera tipo E tensora,,,,,,,,,,no,si
+03013,chumaceras,Tensora,Marco tensor,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Marco tensor,,,,,,,,,,no,si
+03014,chumaceras,Termoplástica,Termoplástica,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera termoplástica,,,,,,,,,,no,si
+03015,chumaceras,Termoplástica,Termoplástica 2T,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera termoplástica 2T,,,,,,,,,,no,si
+03016,chumaceras,Termoplástica,Termoplástica 4T,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera termoplástica 4T,,,,,,,,,,no,si
+03017,chumaceras,Otras,Redonda,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera redonda,,,,,,,,,,no,si
+03018,chumaceras,Otras,Roscada,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera roscada,,,,,,,,,,no,si
+03019,chumaceras,Otras,Colgante,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera colgante,,,,,,,,,,no,si
+03020,chumaceras,Otras,Babbitted 2T,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera Babbitted 2T,,,,,,,,,,no,si
+03021,chumaceras,Otras,Tipo E redonda,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera tipo E redonda,,,,,,,,,,no,si
+03022,chumaceras,Otras,Imperial,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera imperial,,,,,,,,,,no,si
+03023,chumaceras,Otras,S2000,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera S2000,,,,,,,,,,no,si
+03024,chumaceras,Otras,ISAF,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera ISAF,,,,,,,,,,no,si
+03025,chumaceras,Otras,TAF,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera TAF,,,,,,,,,,no,si
+03026,chumaceras,Otras,USAF,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera USAF,,,,,,,,,,no,si
+03027,chumaceras,Insertos,Inserto ER,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Inserto ER,,,,,,,,,,no,si
+03028,chumaceras,Insertos,Inserto doble interlock,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Inserto doble interlock,,,,,,,,,,no,si
+03029,chumaceras,Insertos,Insertos flange,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Insertos flange,,,,,,,,,,no,si
+03030,chumaceras,Insertos,Insertos heavy duty,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Insertos heavy duty,,,,,,,,,,no,si
+03031,chumaceras,Bipartidas,SNV,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera SNV,,,,,,,,,,no,si
+03032,chumaceras,Bipartidas,SES,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera SES,,,,,,,,,,no,si
+03033,chumaceras,Bipartidas,SNS,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera SNS,,,,,,,,,,no,si
+03034,chumaceras,Bipartidas,Bipartida,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,,Chumacera bipartida,,,,,,,,,,no,si
+04001,transmision-de-potencia,Bujes,Buje QD,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje QD,,,,,img/tipos/buje-qd.webp,,,,,si,si
+04002,transmision-de-potencia,Bujes,Buje Taper Lock,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje Taper Lock,,,,,,,,,,no,si
+04003,transmision-de-potencia,Bujes,Buje MST,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje MST,,,,,,,,,,no,si
+04004,transmision-de-potencia,Bujes,Buje Grip Tight,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje Grip Tight,,,,,,,,,,no,si
+04005,transmision-de-potencia,Bujes,Buje H,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje H,,,,,,,,,,no,si
+04006,transmision-de-potencia,Bujes,Buje HE,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje HE,,,,,,,,,,no,si
+04007,transmision-de-potencia,Bujes,Buje XT,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje XT,,,,,,,,,,no,si
+04008,transmision-de-potencia,Bujes,Buje MXT,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje MXT,,,,,,,,,,no,si
+04009,transmision-de-potencia,Bujes,Buje con rodamiento,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje con rodamiento,,,,,,,,,,no,si
+04010,transmision-de-potencia,Bujes,Buje bipartido,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Buje bipartido,,,,,,,,,,no,si
+04011,transmision-de-potencia,Coples,Cople de mordaza,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople de mordaza,,,,,,,,,,no,si
+04012,transmision-de-potencia,Coples,Cople J,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople J,,,,,,,,,,no,si
+04013,transmision-de-potencia,Coples,Cople Quadra-flex,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Quadra-flex,,,,,,,,,,no,si
+04014,transmision-de-potencia,Coples,Cople Marti-flex,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Marti-flex,,,,,,,,,,no,si
+04015,transmision-de-potencia,Coples,Cople de rejillas,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople de rejillas,,,,,,,,,,no,si
+04016,transmision-de-potencia,Coples,Cople de cadena,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople de cadena,,,,,,,,,,no,si
+04017,transmision-de-potencia,Coples,Cople Go-Flex,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Go-Flex,,,,,,,,,,no,si
+04018,transmision-de-potencia,Coples,Cople de engrane,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople de engrane,,,,,,,,,,no,si
+04019,transmision-de-potencia,Coples,Cople Raptor,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Raptor,,,,,,,,,,no,si
+04020,transmision-de-potencia,Coples,Cople Omega,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Omega,,,,,,,,,,no,si
+04021,transmision-de-potencia,Coples,Cople Wrap-Flex,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Wrap-Flex,,,,,,,,,,no,si
+04022,transmision-de-potencia,Coples,Cople Thomas,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Thomas,,,,,,,,,,no,si
+04023,transmision-de-potencia,Coples,Cople Torus,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Torus,,,,,,,,,,no,si
+04024,transmision-de-potencia,Coples,Cople Tollock,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cople Tollock,,,,,,,,,,no,si
+04025,transmision-de-potencia,Coples,Cubierta T20,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cubierta T20,,,,,,,,,,no,si
+04026,transmision-de-potencia,Elementos,Elemento JEM,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Elemento JEM,,,,,,,,,,no,si
+04027,transmision-de-potencia,Elementos,Elemento JEMS,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Elemento JEMS,,,,,,,,,,no,si
+04028,transmision-de-potencia,Elementos,Elemento H,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Elemento H,,,,,,,,,,no,si
+04029,transmision-de-potencia,Elementos,Elemento HS,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Elemento HS,,,,,,,,,,no,si
+04030,transmision-de-potencia,Elementos,Elemento Go-Flex,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Elemento Go-Flex,,,,,,,,,,no,si
+04031,transmision-de-potencia,Elementos,Rejillas,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Rejillas,,,,,,,,,,no,si
+04032,transmision-de-potencia,Engranes,Engrane recto A,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Engrane recto A,,,,,,,,,,no,si
+04033,transmision-de-potencia,Engranes,Engrane recto B,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Engrane recto B,,,,,,,,,,no,si
+04034,transmision-de-potencia,Engranes,Engrane cinco,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Engrane cinco,,,,,,,,,,no,si
+04035,transmision-de-potencia,Engranes,Cremallera,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Cremallera,,,,,,,,,,no,si
+04036,transmision-de-potencia,Engranes,Engrane de corona,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Engrane de corona,,,,,,,,,,no,si
+04037,transmision-de-potencia,Engranes,Gusano sin fin,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Gusano sin fin,,,,,,,,,,no,si
+04038,transmision-de-potencia,Poleas,Polea QD,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea QD,,,,,,,,,,no,si
+04039,transmision-de-potencia,Poleas,Polea Taper Lock,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea Taper Lock,,,,,img/tipos/polea-taper-lock.webp,,,,,si,si
+04040,transmision-de-potencia,Poleas,Polea AK-BK,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea AK-BK,,,,,,,,,,no,si
+04041,transmision-de-potencia,Poleas,Polea AK-BK doble,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea AK-BK doble,,,,,,,,,,no,si
+04042,transmision-de-potencia,Poleas,Polea banda clásica,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea banda clásica,,,,,,,,,,no,si
+04043,transmision-de-potencia,Poleas,Polea paso variable,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea paso variable,,,,,,,,,,no,si
+04044,transmision-de-potencia,Poleas,Polea paso variable doble,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea paso variable doble,,,,,,,,,,no,si
+04045,transmision-de-potencia,Poleas,Polea de tiempo,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea de tiempo,,,,,,,,,,no,si
+04046,transmision-de-potencia,Poleas,Polea JA,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea JA,,,,,,,,,,no,si
+04047,transmision-de-potencia,Poleas,Polea SDS,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea SDS,,,,,,,,,,no,si
+04048,transmision-de-potencia,Poleas,Polea SH,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea SH,,,,,,,,,,no,si
+04049,transmision-de-potencia,Poleas,Polea SK,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea SK,,,,,,,,,,no,si
+04050,transmision-de-potencia,Poleas,Polea TB,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea TB,,,,,,,,,,no,si
+04051,transmision-de-potencia,Poleas,Polea loca plana,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea loca plana,,,,,,,,,,no,si
+04052,transmision-de-potencia,Poleas,Polea loca Polychain,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea loca Polychain,,,,,,,,,,no,si
+04053,transmision-de-potencia,Poleas,Polea de aluminio,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Polea de aluminio,,,,,,,,,,no,si
+04054,transmision-de-potencia,Sprockets,Sprocket A,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket A,,,,,,,,,,no,si
+04055,transmision-de-potencia,Sprockets,Sprocket A doble,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket A doble,,,,,,,,,,no,si
+04056,transmision-de-potencia,Sprockets,Sprocket B,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket B,,,,,img/tipos/sprocket-b.webp,,,,,si,si
+04057,transmision-de-potencia,Sprockets,Sprocket B doble,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket B doble,,,,,,,,,,no,si
+04058,transmision-de-potencia,Sprockets,Sprocket B triple,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket B triple,,,,,,,,,,no,si
+04059,transmision-de-potencia,Sprockets,Sprocket C,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket C,,,,,,,,,,no,si
+04060,transmision-de-potencia,Sprockets,Sprocket C doble,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket C doble,,,,,,,,,,no,si
+04061,transmision-de-potencia,Sprockets,Sprocket HTS,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket HTS,,,,,,,,,,no,si
+04062,transmision-de-potencia,Sprockets,Sprocket MPC,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket MPC,,,,,,,,,,no,si
+04063,transmision-de-potencia,Sprockets,Sprocket 815,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket 815,,,,,,,,,,no,si
+04064,transmision-de-potencia,Sprockets,Sprocket de ingeniería,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket de ingeniería,,,,,,,,,,no,si
+04065,transmision-de-potencia,Sprockets,Sprocket bipartido,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket bipartido,,,,,,,,,,no,si
+04066,transmision-de-potencia,Sprockets,Sprocket no metálico,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Sprocket no metálico,,,,,,,,,,no,si
+04067,transmision-de-potencia,Otros,Guiado lineal,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,,Guiado lineal,,,,,,,,,,no,si
+05001,cadenas,,Cadena de rodillos,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de rodillos,,,,,img/tipos/cadena-de-rodillos.webp,,,,,si,si
+05002,cadenas,,Cadena de rodillos doble,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de rodillos doble,,,,,,,,,,no,si
+05003,cadenas,,Cadena de rodillos triple,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de rodillos triple,,,,,,,,,,no,si
+05004,cadenas,,Cadena de acero inoxidable,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de acero inoxidable,,,,,,,,,,no,si
+05005,cadenas,,Candados y medios candados,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Candados y medios candados,,,,,,,,,,no,si
+05006,cadenas,,Cadena de ingeniería,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de ingeniería,,,,,,,,,,no,si
+05007,cadenas,,Cadena de acero soldado,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de acero soldado,,,,,,,,,,no,si
+05008,cadenas,,Cadena de rodillos de bloque,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de rodillos de bloque,,,,,,,,,,no,si
+05009,cadenas,,Cadena fundida,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena fundida,,,,,,,,,,no,si
+05010,cadenas,,Cadena forjada,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena forjada,,,,,,,,,,no,si
+05011,cadenas,,Cadena agrícola,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena agrícola,,,,,,,,,,no,si
+05012,cadenas,,Cadena con aditamiento,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena con aditamiento,,,,,,,,,,no,si
+05013,cadenas,,Cadena para montacarga,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena para montacarga,,,,,,,,,,no,si
+05014,cadenas,,Cadena de acero industrializada,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cadena de acero industrializada,,,,,,,,,,no,si
+05015,cadenas,,Cortador de cadenas,Browning|Link-Belt|Morse|Regina|ZSG Chains,,Cortador de cadenas,,,,,,,,,,no,si
+06001,motores,Motores,Norma NEMA,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor norma NEMA,,,,,img/tipos/motor-nema.webp,,,,,si,si
+06002,motores,Motores,Norma IEC,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor norma IEC,,,,,,,,,,no,si
+06003,motores,Motores,Propósito general,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor propósito general,,,,,,,,,,no,si
+06004,motores,Motores,Monofásico,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor monofásico,,,,,,,,,,no,si
+06005,motores,Motores,Trifásico,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor trifásico,,,,,,,,,,no,si
+06006,motores,Motores,Severe duty,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor Severe duty,,,,,,,,,,no,si
+06007,motores,Motores,Lavables,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor lavable,,,,,,,,,,no,si
+06008,motores,Motores,A prueba de explosión,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor a prueba de explosión,,,,,,,,,,no,si
+06009,motores,Motores,Verticales,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor vertical,,,,,,,,,,no,si
+06010,motores,Motores,Sumergibles,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor sumergible,,,,,,,,,,no,si
+06011,motores,Motores,Torre de enfriamiento,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor para torre de enfriamiento,,,,,,,,,,no,si
+06012,motores,Motores,HVAC,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor HVAC,,,,,,,,,,no,si
+06013,motores,Motores,Marine duty,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Motor Marine duty,,,,,,,,,,no,si
+06014,motores,Motores,Servomotores,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Servomotor,,,,,,,,,,no,si
+06015,motores,Control y accesorios,Clutches y frenos,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Clutches y frenos,,,,,,,,,,no,si
+06016,motores,Control y accesorios,Smart Sensor,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Smart Sensor,,,,,,,,,,no,si
+06017,motores,Control y accesorios,Drives,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Drives,,,,,,,,,,no,si
+06018,motores,Control y accesorios,Arrancador suave,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Arrancador suave,,,,,,,,,,no,si
+06019,motores,Control y accesorios,PLC,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,PLC,,,,,,,,,,no,si
+06020,motores,Control y accesorios,Contactor,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,,Contactor,,,,,,,,,,no,si
+07001,reductores,Series,TXT,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor TXT,,,,,,,,,,no,si
+07002,reductores,Series,TA II,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor TA II,,,,,,,,,,no,si
+07003,reductores,Series,Tigear-2,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor Tigear-2,,,,,,,,,,no,si
+07004,reductores,Series,Maxum,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor Maxum,,,,,,,,,,no,si
+07005,reductores,Series,Magnagear,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor Magnagear,,,,,,,,,,no,si
+07006,reductores,Series,Quantis,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor Quantis,,,,,,,,,,no,si
+07007,reductores,Series,Maxxdrive,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor Maxxdrive,,,,,,,,,,no,si
+07008,reductores,Tipos,Sin fin,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor sin fin,,,,,,,,,,no,si
+07009,reductores,Tipos,Ejes paralelos,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor de ejes paralelos,,,,,,,,,,no,si
+07010,reductores,Tipos,Lineales,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor lineal,,,,,,,,,,no,si
+07011,reductores,Tipos,Helicoidales,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor helicoidal,,,,,img/tipos/reductor-helicoidal.webp,,,,,si,si
+07012,reductores,Tipos,Colineales,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor colineal,,,,,,,,,,no,si
+07013,reductores,Tipos,Planetarios,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Reductor planetario,,,,,,,,,,no,si
+07014,reductores,Accesorios,Freno contravuelta,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Freno contravuelta,,,,,,,,,,no,si
+07015,reductores,Accesorios,Adaptadores,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Adaptadores,,,,,,,,,,no,si
+07016,reductores,Accesorios,Guardas,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Guardas,,,,,,,,,,no,si
+07017,reductores,Accesorios,Bases,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Bases,,,,,,,,,,no,si
+07018,reductores,Accesorios,Ventilador,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Ventilador,,,,,,,,,,no,si
+07019,reductores,Accesorios,Kit de bujes,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Kit de bujes,,,,,,,,,,no,si
+07020,reductores,Accesorios,Kit de reparación,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,,Kit de reparación,,,,,,,,,,no,si
+08001,banda-industrial,,Clásica V,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda clásica V,,,,,img/tipos/banda-clasica-v.webp,,,,,si,si
+08002,banda-industrial,,Dentada,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda dentada,,,,,,,,,,no,si
+08003,banda-industrial,,Sincronía,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda sincronía,,,,,,,,,,no,si
+08004,banda-industrial,,Milimétricas,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda milimétrica,,,,,,,,,,no,si
+08005,banda-industrial,,Polychain HTD,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Polychain HTD,,,,,,,,,,no,si
+08006,banda-industrial,,Truflex,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Truflex,,,,,,,,,,no,si
+08007,banda-industrial,,Polyflex,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Polyflex,,,,,,,,,,no,si
+08008,banda-industrial,,Polychain GT Carbón,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Polychain GT Carbón,,,,,,,,,,no,si
+08009,banda-industrial,,Costillas,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda de costillas,,,,,,,,,,no,si
+08010,banda-industrial,,Costillas dentada,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda de costillas dentada,,,,,,,,,,no,si
+08011,banda-industrial,,Eslabonada,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda eslabonada,,,,,,,,,,no,si
+08012,banda-industrial,,Velocidad variable,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda velocidad variable,,,,,,,,,,no,si
+08013,banda-industrial,,Doble cara,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda doble cara,,,,,,,,,,no,si
+08014,banda-industrial,,Predator,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Predator,,,,,,,,,,no,si
+08015,banda-industrial,,Predator costillas,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Predator costillas,,,,,,,,,,no,si
+08016,banda-industrial,,Power Grip HTD Twin Power,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Power Grip HTD Twin Power,,,,,,,,,,no,si
+08017,banda-industrial,,Power Grip GT3,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Power Grip GT3,,,,,,,,,,no,si
+08018,banda-industrial,,Mectrol,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Mectrol,,,,,,,,,,no,si
+08019,banda-industrial,,Poliuretano,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda poliuretano,,,,,,,,,,no,si
+08020,banda-industrial,,Mangas,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Mangas,,,,,,,,,,no,si
+08021,banda-industrial,,Plana,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda plana,,,,,,,,,,no,si
+08022,banda-industrial,,Plana PU,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda plana PU,,,,,,,,,,no,si
+08023,banda-industrial,,Megapower PU,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Megapower PU,,,,,,,,,,no,si
+08024,banda-industrial,,Megaflex,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Megaflex,,,,,,,,,,no,si
+08025,banda-industrial,,Megalinear,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Megalinear,,,,,,,,,,no,si
+08026,banda-industrial,,Megaweld,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Banda Megaweld,,,,,,,,,,no,si
+08027,banda-industrial,,Especiales,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Especiales,,,,,,,,,,no,si
+08028,banda-industrial,,Empalmes,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Empalmes,,,,,,,,,,no,si
+08029,banda-industrial,,Empujadores,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,,Empujadores,,,,,,,,,,no,si
+09001,mangueras-industriales,Mangueras,Multiusos,Gates|Jason Industrial|Continental,,Manguera multiusos,,,,,img/tipos/manguera-multiusos.webp,,,,,si,si
+09002,mangueras-industriales,Mangueras,Multiusos premium,Gates|Jason Industrial|Continental,,Manguera multiusos premium,,,,,,,,,,no,si
+09003,mangueras-industriales,Mangueras,Para soldar,Gates|Jason Industrial|Continental,,Manguera para soldar,,,,,,,,,,no,si
+09004,mangueras-industriales,Mangueras,Para aire,Gates|Jason Industrial|Continental,,Manguera para aire,,,,,,,,,,no,si
+09005,mangueras-industriales,Mangueras,Manejo de agua,Gates|Jason Industrial|Continental,,Manguera manejo de agua,,,,,,,,,,no,si
+09006,mangueras-industriales,Mangueras,Riego,Gates|Jason Industrial|Continental,,Manguera riego,,,,,,,,,,no,si
+09007,mangueras-industriales,Mangueras,FDA con anillos,Gates|Jason Industrial|Continental,,Manguera FDA con anillos,,,,,,,,,,no,si
+09008,mangueras-industriales,Mangueras,Chorro de arena,Gates|Jason Industrial|Continental,,Manguera chorro de arena,,,,,,,,,,no,si
+09009,mangueras-industriales,Mangueras,Manejo de combustible,Gates|Jason Industrial|Continental,,Manguera manejo de combustible,,,,,,,,,,no,si
+09010,mangueras-industriales,Mangueras,Manejo de materiales,Gates|Jason Industrial|Continental,,Manguera manejo de materiales,,,,,,,,,,no,si
+09011,mangueras-industriales,Mangueras,Grado alimenticio,Gates|Jason Industrial|Continental,,Manguera grado alimenticio,,,,,,,,,,no,si
+09012,mangueras-industriales,Mangueras,Descarga de sardina,Gates|Jason Industrial|Continental,,Manguera descarga de sardina,,,,,,,,,,no,si
+09013,mangueras-industriales,Mangueras,Buceo,Gates|Jason Industrial|Continental,,Manguera buceo,,,,,,,,,,no,si
+09014,mangueras-industriales,Mangueras,Carga y descarga,Gates|Jason Industrial|Continental,,Manguera carga y descarga,,,,,,,,,,no,si
+09015,mangueras-industriales,Mangueras,Concreto,Gates|Jason Industrial|Continental,,Manguera concreto,,,,,,,,,,no,si
+09016,mangueras-industriales,Mangueras,Ducto de aire,Gates|Jason Industrial|Continental,,Manguera ducto de aire,,,,,,,,,,no,si
+09017,mangueras-industriales,Mangueras,Minería,Gates|Jason Industrial|Continental,,Manguera minería,,,,,,,,,,no,si
+09018,mangueras-industriales,Mangueras,Vapor,Gates|Jason Industrial|Continental,,Manguera vapor,,,,,,,,,,no,si
+09019,mangueras-industriales,Mangueras,Petróleo y derivados,Gates|Jason Industrial|Continental,,Manguera petróleo y derivados,,,,,,,,,,no,si
+09020,mangueras-industriales,Mangueras,Productos químicos,Gates|Jason Industrial|Continental,,Manguera productos químicos,,,,,,,,,,no,si
+09021,mangueras-industriales,Conexiones,Aluminio PTE A,Gates|Jason Industrial|Continental,,Conexión aluminio PTE A,,,,,,,,,,no,si
+09022,mangueras-industriales,Conexiones,Aluminio PTE B,Gates|Jason Industrial|Continental,,Conexión aluminio PTE B,,,,,,,,,,no,si
+09023,mangueras-industriales,Conexiones,Aluminio PTE C,Gates|Jason Industrial|Continental,,Conexión aluminio PTE C,,,,,,,,,,no,si
+09024,mangueras-industriales,Conexiones,Aluminio PTE D,Gates|Jason Industrial|Continental,,Conexión aluminio PTE D,,,,,,,,,,no,si
+09025,mangueras-industriales,Conexiones,Aluminio PTE E,Gates|Jason Industrial|Continental,,Conexión aluminio PTE E,,,,,,,,,,no,si
+09026,mangueras-industriales,Conexiones,Aluminio PTE F,Gates|Jason Industrial|Continental,,Conexión aluminio PTE F,,,,,,,,,,no,si
+09027,mangueras-industriales,Conexiones,Aluminio PTE DC,Gates|Jason Industrial|Continental,,Conexión aluminio PTE DC,,,,,,,,,,no,si
+09028,mangueras-industriales,Conexiones,Aluminio PTE DP,Gates|Jason Industrial|Continental,,Conexión aluminio PTE DP,,,,,,,,,,no,si
+09029,mangueras-industriales,Conexiones,Abrazadera 2 tornillos,Gates|Jason Industrial|Continental,,Conexión abrazadera 2 tornillos,,,,,,,,,,no,si
+09030,mangueras-industriales,Conexiones,Tipo garra manguera,Gates|Jason Industrial|Continental,,Conexión tipo garra manguera,,,,,,,,,,no,si
+09031,mangueras-industriales,Conexiones,Tipo garra hembra NPT,Gates|Jason Industrial|Continental,,Conexión tipo garra hembra NPT,,,,,,,,,,no,si
+09032,mangueras-industriales,Conexiones,Tipo garra macho NPT,Gates|Jason Industrial|Continental,,Conexión tipo garra macho NPT,,,,,,,,,,no,si
+10001,mangueras-hidraulicas,Mangueras,IAK3K,Gates|Jason Industrial|Continental,,Manguera hidráulica IAK3K,,,,,,,,,,no,si
+10002,mangueras-hidraulicas,Mangueras,G1,Gates|Jason Industrial|Continental,,Manguera hidráulica G1,,,,,img/tipos/manguera-g1.webp,,,,,si,si
+10003,mangueras-hidraulicas,Mangueras,G2,Gates|Jason Industrial|Continental,,Manguera hidráulica G2,,,,,,,,,,no,si
+10004,mangueras-hidraulicas,Mangueras,G1H,Gates|Jason Industrial|Continental,,Manguera hidráulica G1H,,,,,,,,,,no,si
+10005,mangueras-hidraulicas,Mangueras,G2H,Gates|Jason Industrial|Continental,,Manguera hidráulica G2H,,,,,,,,,,no,si
+10006,mangueras-hidraulicas,Mangueras,MXT,Gates|Jason Industrial|Continental,,Manguera hidráulica MXT,,,,,,,,,,no,si
+10007,mangueras-hidraulicas,Mangueras,EFGK,Gates|Jason Industrial|Continental,,Manguera hidráulica EFGK,,,,,,,,,,no,si
+10008,mangueras-hidraulicas,Mangueras,M4K,Gates|Jason Industrial|Continental,,Manguera hidráulica M4K,,,,,,,,,,no,si
+10009,mangueras-hidraulicas,Mangueras,M3K,Gates|Jason Industrial|Continental,,Manguera hidráulica M3K,,,,,,,,,,no,si
+10010,mangueras-hidraulicas,Mangueras,LOC,Gates|Jason Industrial|Continental,,Manguera hidráulica LOC,,,,,,,,,,no,si
+10011,mangueras-hidraulicas,Mangueras,G5C,Gates|Jason Industrial|Continental,,Manguera hidráulica G5C,,,,,,,,,,no,si
+10012,mangueras-hidraulicas,Mangueras,LPG,Gates|Jason Industrial|Continental,,Manguera hidráulica LPG,,,,,,,,,,no,si
+10013,mangueras-hidraulicas,Mangueras,SW,Gates|Jason Industrial|Continental,,Manguera hidráulica SW,,,,,,,,,,no,si
+10014,mangueras-hidraulicas,Mangueras,Polar Seal,Gates|Jason Industrial|Continental,,Manguera hidráulica Polar Seal,,,,,,,,,,no,si
+10015,mangueras-hidraulicas,Mangueras,LOLA,Gates|Jason Industrial|Continental,,Manguera hidráulica LOLA,,,,,,,,,,no,si
+10016,mangueras-hidraulicas,Mangueras,MegaTech,Gates|Jason Industrial|Continental,,Manguera hidráulica MegaTech,,,,,,,,,,no,si
+10017,mangueras-hidraulicas,Mangueras,GMV,Gates|Jason Industrial|Continental,,Manguera hidráulica GMV,,,,,,,,,,no,si
+10018,mangueras-hidraulicas,Mangueras,TH7CN,Gates|Jason Industrial|Continental,,Manguera hidráulica TH7CN,,,,,,,,,,no,si
+10019,mangueras-hidraulicas,Mangueras,TNFA,Gates|Jason Industrial|Continental,,Manguera hidráulica TNFA,,,,,,,,,,no,si
+10020,mangueras-hidraulicas,Conexiones G,G-FJX,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FJX,,,,,,,,,,no,si
+10021,mangueras-hidraulicas,Conexiones G,G-FJISX,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FJISX,,,,,,,,,,no,si
+10022,mangueras-hidraulicas,Conexiones G,G-FBSPORX,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FBSPORX,,,,,,,,,,no,si
+10023,mangueras-hidraulicas,Conexiones G,G-FFORX,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FFORX,,,,,,,,,,no,si
+10024,mangueras-hidraulicas,Conexiones G,G-FL,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FL,,,,,,,,,,no,si
+10025,mangueras-hidraulicas,Conexiones G,G-MB,Gates|Jason Industrial|Continental,,Conexión hidráulica G-MB,,,,,,,,,,no,si
+10026,mangueras-hidraulicas,Conexiones G,G-MJ,Gates|Jason Industrial|Continental,,Conexión hidráulica G-MJ,,,,,,,,,,no,si
+10027,mangueras-hidraulicas,Conexiones G,G-MP,Gates|Jason Industrial|Continental,,Conexión hidráulica G-MP,,,,,,,,,,no,si
+10028,mangueras-hidraulicas,Conexiones G,G-FP,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FP,,,,,,,,,,no,si
+10029,mangueras-hidraulicas,Conexiones G,G-FPX,Gates|Jason Industrial|Continental,,Conexión hidráulica G-FPX,,,,,,,,,,no,si
+10030,mangueras-hidraulicas,Conexiones G,G-MBSPP,Gates|Jason Industrial|Continental,,Conexión hidráulica G-MBSPP,,,,,,,,,,no,si
+10031,mangueras-hidraulicas,Conexiones G,G-MFFOR,Gates|Jason Industrial|Continental,,Conexión hidráulica G-MFFOR,,,,,,,,,,no,si
+10032,mangueras-hidraulicas,Conexiones GS,GS-FJX,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FJX,,,,,,,,,,no,si
+10033,mangueras-hidraulicas,Conexiones GS,GS-FJISX,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FJISX,,,,,,,,,,no,si
+10034,mangueras-hidraulicas,Conexiones GS,GS-FJX45S,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FJX45S,,,,,,,,,,no,si
+10035,mangueras-hidraulicas,Conexiones GS,GS-FJX90S,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FJX90S,,,,,,,,,,no,si
+10036,mangueras-hidraulicas,Conexiones GS,GS-FBSPORX,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FBSPORX,,,,,,,,,,no,si
+10037,mangueras-hidraulicas,Conexiones GS,GS-FFORX,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FFORX,,,,,,,,,,no,si
+10038,mangueras-hidraulicas,Conexiones GS,GS-FL,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FL,,,,,,,,,,no,si
+10039,mangueras-hidraulicas,Conexiones GS,GS-FDHORX,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FDHORX,,,,,,,,,,no,si
+10040,mangueras-hidraulicas,Conexiones GS,GS-FDLORX,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-FDLORX,,,,,,,,,,no,si
+10041,mangueras-hidraulicas,Conexiones GS,GS-MB,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-MB,,,,,,,,,,no,si
+10042,mangueras-hidraulicas,Conexiones GS,GS-MJ,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-MJ,,,,,,,,,,no,si
+10043,mangueras-hidraulicas,Conexiones GS,GS-MP,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-MP,,,,,,,,,,no,si
+10044,mangueras-hidraulicas,Conexiones GS,GS-MBSP,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-MBSP,,,,,,,,,,no,si
+10045,mangueras-hidraulicas,Conexiones GS,GS-MFFOR,Gates|Jason Industrial|Continental,,Conexión hidráulica GS-MFFOR,,,,,,,,,,no,si
+10046,mangueras-hidraulicas,Conexiones GS,GS2F,Gates|Jason Industrial|Continental,,Conexión hidráulica GS2F,,,,,,,,,,no,si
+10047,mangueras-hidraulicas,Conexiones C5 y LOC,C5-RFFOR,Gates|Jason Industrial|Continental,,Conexión hidráulica C5-RFFOR,,,,,,,,,,no,si
+10048,mangueras-hidraulicas,Conexiones C5 y LOC,C5-RFJX,Gates|Jason Industrial|Continental,,Conexión hidráulica C5-RFJX,,,,,,,,,,no,si
+10049,mangueras-hidraulicas,Conexiones C5 y LOC,C5-RMJ,Gates|Jason Industrial|Continental,,Conexión hidráulica C5-RMJ,,,,,,,,,,no,si
+10050,mangueras-hidraulicas,Conexiones C5 y LOC,C5-RMP,Gates|Jason Industrial|Continental,,Conexión hidráulica C5-RMP,,,,,,,,,,no,si
+10051,mangueras-hidraulicas,Conexiones C5 y LOC,C5-RMS,Gates|Jason Industrial|Continental,,Conexión hidráulica C5-RMS,,,,,,,,,,no,si
+10052,mangueras-hidraulicas,Conexiones C5 y LOC,LOC-RFJX,Gates|Jason Industrial|Continental,,Conexión hidráulica LOC-RFJX,,,,,,,,,,no,si
+10053,mangueras-hidraulicas,Conexiones C5 y LOC,LOC-RFJSX,Gates|Jason Industrial|Continental,,Conexión hidráulica LOC-RFJSX,,,,,,,,,,no,si
+10054,mangueras-hidraulicas,Conexiones C5 y LOC,LOC-RFSX,Gates|Jason Industrial|Continental,,Conexión hidráulica LOC-RFSX,,,,,,,,,,no,si
+10055,mangueras-hidraulicas,Conexiones C5 y LOC,LOC-RHM,Gates|Jason Industrial|Continental,,Conexión hidráulica LOC-RHM,,,,,,,,,,no,si
+10056,mangueras-hidraulicas,Conexiones C5 y LOC,LOC-RMP,Gates|Jason Industrial|Continental,,Conexión hidráulica LOC-RMP,,,,,,,,,,no,si
+10057,mangueras-hidraulicas,Adaptadores,MB-FP,Gates|Jason Industrial|Continental,,Adaptador hidráulico MB-FP,,,,,,,,,,no,si
+10058,mangueras-hidraulicas,Adaptadores,MB-FPX,Gates|Jason Industrial|Continental,,Adaptador hidráulico MB-FPX,,,,,,,,,,no,si
+10059,mangueras-hidraulicas,Adaptadores,MB-MJ,Gates|Jason Industrial|Continental,,Adaptador hidráulico MB-MJ,,,,,,,,,,no,si
+10060,mangueras-hidraulicas,Adaptadores,MB-PLUG,Gates|Jason Industrial|Continental,,Adaptador hidráulico MB-PLUG,,,,,,,,,,no,si
+10061,mangueras-hidraulicas,Adaptadores,MJ-FP,Gates|Jason Industrial|Continental,,Adaptador hidráulico MJ-FP,,,,,,,,,,no,si
+10062,mangueras-hidraulicas,Adaptadores,MJ-MJ,Gates|Jason Industrial|Continental,,Adaptador hidráulico MJ-MJ,,,,,,,,,,no,si
+10063,mangueras-hidraulicas,Adaptadores,MJ-MP,Gates|Jason Industrial|Continental,,Adaptador hidráulico MJ-MP,,,,,,,,,,no,si
+10064,mangueras-hidraulicas,Adaptadores,MJ-PLUG,Gates|Jason Industrial|Continental,,Adaptador hidráulico MJ-PLUG,,,,,,,,,,no,si
+10065,mangueras-hidraulicas,Adaptadores,MP-FPX,Gates|Jason Industrial|Continental,,Adaptador hidráulico MP-FPX,,,,,,,,,,no,si
+10066,mangueras-hidraulicas,Adaptadores,MP-M,Gates|Jason Industrial|Continental,,Adaptador hidráulico MP-M,,,,,,,,,,no,si
+10067,mangueras-hidraulicas,Adaptadores,MP-PLUG,Gates|Jason Industrial|Continental,,Adaptador hidráulico MP-PLUG,,,,,,,,,,no,si
+10068,mangueras-hidraulicas,Adaptadores,MFFOR-MB,Gates|Jason Industrial|Continental,,Adaptador hidráulico MFFOR-MB,,,,,,,,,,no,si
+10069,mangueras-hidraulicas,Adaptadores,MFFOR-MP,Gates|Jason Industrial|Continental,,Adaptador hidráulico MFFOR-MP,,,,,,,,,,no,si
+10070,mangueras-hidraulicas,Adaptadores,FP-FPX,Gates|Jason Industrial|Continental,,Adaptador hidráulico FP-FPX,,,,,,,,,,no,si
+10071,mangueras-hidraulicas,Adaptadores,FQBADA-FP,Gates|Jason Industrial|Continental,,Adaptador hidráulico FQBADA-FP,,,,,,,,,,no,si
+10072,mangueras-hidraulicas,Adaptadores,MQBA-FP,Gates|Jason Industrial|Continental,,Adaptador hidráulico MQBA-FP,,,,,,,,,,no,si
+10073,mangueras-hidraulicas,Adaptadores,FQPA-FP,Gates|Jason Industrial|Continental,,Adaptador hidráulico FQPA-FP,,,,,,,,,,no,si
+10074,mangueras-hidraulicas,Adaptadores,MQPA-FP,Gates|Jason Industrial|Continental,,Adaptador hidráulico MQPA-FP,,,,,,,,,,no,si
+10075,mangueras-hidraulicas,Adaptadores,ACA-FTON,Gates|Jason Industrial|Continental,,Adaptador hidráulico ACA-FTON,,,,,,,,,,no,si
+10076,mangueras-hidraulicas,Adaptadores,ACA-FTON45,Gates|Jason Industrial|Continental,,Adaptador hidráulico ACA-FTON45,,,,,,,,,,no,si
+10077,mangueras-hidraulicas,Adaptadores,ACA-FTON90,Gates|Jason Industrial|Continental,,Adaptador hidráulico ACA-FTON90,,,,,,,,,,no,si
+10078,mangueras-hidraulicas,Adaptadores,ACA-MMFA,Gates|Jason Industrial|Continental,,Adaptador hidráulico ACA-MMFA,,,,,,,,,,no,si
+10079,mangueras-hidraulicas,Adaptadores,ACA-MTON,Gates|Jason Industrial|Continental,,Adaptador hidráulico ACA-MTON,,,,,,,,,,no,si
+11001,laton,,G460F Barril,Gates,,Conexión de latón G460F Barril,,,,,img/tipos/laton-g460f.webp,,,,,si,si
+11002,laton,,G41WB Tuerca,Gates,,Conexión de latón G41WB Tuerca,,,,,,,,,,no,si
+11003,laton,,G120B Adaptador,Gates,,Conexión de latón G120B Adaptador,,,,,,,,,,no,si
+11004,laton,,G41F Tuerca larga,Gates,,Conexión de latón G41F Tuerca larga,,,,,,,,,,no,si
+11005,laton,,G42F Niple unión,Gates,,Conexión de latón G42F Niple unión,,,,,,,,,,no,si
+11006,laton,,G4-462F Unión,Gates,,Conexión de latón G4-462F Unión,,,,,,,,,,no,si
+11007,laton,,G113B Niple largo,Gates,,Conexión de latón G113B Niple largo,,,,,,,,,,no,si
+11008,laton,,G44F TE unión,Gates,,Conexión de latón G44F TE unión,,,,,,,,,,no,si
+11009,laton,,GQ64-DOT Push in,Gates,,Conexión de latón GQ64-DOT Push in,,,,,,,,,,no,si
+11010,laton,,G65F Codo 90 unión,Gates,,Conexión de latón G65F Codo 90 unión,,,,,,,,,,no,si
+11011,laton,,G69F Codo 90 terminal macho,Gates,,Conexión de latón G69F Codo 90 terminal macho,,,,,,,,,,no,si
+11012,laton,,G46F Conector hembra,Gates,,Conexión de latón G46F Conector hembra,,,,,,,,,,no,si
+11013,laton,,G46W Conector hembra,Gates,,Conexión de latón G46W Conector hembra,,,,,,,,,,no,si
+11014,laton,,G4-468F Conector macho,Gates,,Conexión de latón G4-468F Conector macho,,,,,,,,,,no,si
+11015,laton,,G68F Conector macho,Gates,,Conexión de latón G68F Conector macho,,,,,,,,,,no,si
+11016,laton,,G4-474F Codo 45 macho,Gates,,Conexión de latón G4-474F Codo 45 macho,,,,,,,,,,no,si
+11017,laton,,G54F Codo 45,Gates,,Conexión de latón G54F Codo 45,,,,,,,,,,no,si
+11018,laton,,G474F Codo 45 macho,Gates,,Conexión de latón G474F Codo 45 macho,,,,,,,,,,no,si
+11019,laton,,Cople macho sin resorte,Gates,,Conexión de latón Cople macho sin resorte,,,,,,,,,,no,si
+11020,laton,,Cople macho con resorte,Gates,,Conexión de latón Cople macho con resorte,,,,,,,,,,no,si
+12001,neumatica,,Coples rápidos,Gates|Norgren,,Coples rápidos,,,,,img/tipos/coples-rapidos.webp,,,,,si,si
+12002,neumatica,,Pistola de aire,Gates|Norgren,,Pistola de aire,,,,,,,,,,no,si
+12003,neumatica,,Mangueras de aire,Gates|Norgren,,Mangueras de aire,,,,,,,,,,no,si
+12004,neumatica,,Tubing de nylon,Gates|Norgren,,Tubing de nylon,,,,,,,,,,no,si
+12005,neumatica,,Tubing de poliuretano,Gates|Norgren,,Tubing de poliuretano,,,,,,,,,,no,si
+12006,neumatica,,Racores de tecnopolímero,Gates|Norgren,,Racores de tecnopolímero,,,,,,,,,,no,si
+12007,neumatica,,Racores de latón niquelado,Gates|Norgren,,Racores de latón niquelado,,,,,,,,,,no,si
+12008,neumatica,,Reguladores de flujo,Gates|Norgren,,Reguladores de flujo,,,,,,,,,,no,si
+12009,neumatica,,Serie B compresión,Gates|Norgren,,Serie B compresión,,,,,,,,,,no,si
+12010,neumatica,,Actuadores,Gates|Norgren,,Actuadores,,,,,,,,,,no,si
+12011,neumatica,,Islas de válvulas,Gates|Norgren,,Islas de válvulas,,,,,,,,,,no,si
+12012,neumatica,,Sistema ONE,Gates|Norgren,,Sistema ONE,,,,,,,,,,no,si
+12013,neumatica,,Unidad de mantenimiento,Gates|Norgren,,Unidad de mantenimiento,,,,,,,,,,no,si
+12014,neumatica,,Válvula de corte,Gates|Norgren,,Válvula de corte,,,,,,,,,,no,si
+12015,neumatica,,Válvulas Serie 70,Gates|Norgren,,Válvulas Serie 70,,,,,,,,,,no,si
+13001,bandas-transportadoras,,Banda transportadora,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda transportadora,,,,,,,,,,no,si
+13002,bandas-transportadoras,,Banda grado I y II,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda grado I y II,,,,,img/tipos/banda-grado.webp,,,,,si,si
+13003,bandas-transportadoras,,Banda alta temperatura,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda alta temperatura,,,,,,,,,,no,si
+13004,bandas-transportadoras,,Banda refuerzo textil,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda refuerzo textil,,,,,,,,,,no,si
+13005,bandas-transportadoras,,Banda cable de acero,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda cable de acero,,,,,,,,,,no,si
+13006,bandas-transportadoras,,Banda con chevrones,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda con chevrones,,,,,,,,,,no,si
+13007,bandas-transportadoras,,Banda multi-ply,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda multi-ply,,,,,,,,,,no,si
+13008,bandas-transportadoras,,Banda para cangilón,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Banda para cangilón,,,,,,,,,,no,si
+13009,bandas-transportadoras,,Grapas,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Grapas,,,,,,,,,,no,si
+13010,bandas-transportadoras,,Cangilones,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Cangilones,,,,,,,,,,no,si
+13011,bandas-transportadoras,,Limpiadores,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Limpiadores,,,,,,,,,,no,si
+13012,bandas-transportadoras,,Hule faldón,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Hule faldón,,,,,,,,,,no,si
+13013,bandas-transportadoras,,Superscrew,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Superscrew,,,,,,,,,,no,si
+13014,bandas-transportadoras,,Remaclean Green,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Remaclean Green,,,,,,,,,,no,si
+13015,bandas-transportadoras,,Remaskirt,Depreux|Flexco|Rema Tip Top|Maxi-Lift,,Remaskirt,,,,,,,,,,no,si
+14001,rodillos,,De carga TE,PPI|Regal Rexnord|Martin,,Rodillo de carga TE,,,,,img/tipos/rodillo-carga-te.webp,,,,,si,si
+14002,rodillos,,De impacto TEI,PPI|Regal Rexnord|Martin,,Rodillo de impacto TEI,,,,,,,,,,no,si
+14003,rodillos,,Autoalineables de carga TESA,PPI|Regal Rexnord|Martin,,Rodillo autoalineable de carga TESA,,,,,,,,,,no,si
+14004,rodillos,,Desiguales de carga TU,PPI|Regal Rexnord|Martin,,Rodillo desigual de carga TU,,,,,,,,,,no,si
+14005,rodillos,,Desiguales de impacto TUI,PPI|Regal Rexnord|Martin,,Rodillo desigual de impacto TUI,,,,,,,,,,no,si
+14006,rodillos,,De transición,PPI|Regal Rexnord|Martin,,Rodillo de transición,,,,,,,,,,no,si
+14007,rodillos,,De nylon,PPI|Regal Rexnord|Martin,,Rodillo de nylon,,,,,,,,,,no,si
+14008,rodillos,,Retro Rolls,PPI|Regal Rexnord|Martin,,Rodillo Retro Rolls,,,,,,,,,,no,si
+14009,rodillos,,De retorno R,PPI|Regal Rexnord|Martin,,Rodillo de retorno R,,,,,,,,,,no,si
+14010,rodillos,,Retorno de goma RRG,PPI|Regal Rexnord|Martin,,Rodillo de retorno de goma RRG,,,,,,,,,,no,si
+14011,rodillos,,Retorno autoalineables RSA,PPI|Regal Rexnord|Martin,,Rodillo de retorno autoalineable RSA,,,,,,,,,,no,si
+14012,rodillos,,De retorno en V VR,PPI|Regal Rexnord|Martin,,Rodillo de retorno en V VR,,,,,,,,,,no,si
+14013,rodillos,,Retorno invertido en V IVR,PPI|Regal Rexnord|Martin,,Rodillo de retorno invertido en V IVR,,,,,,,,,,no,si
+14014,rodillos,,Protector de seguridad para retorno,PPI|Regal Rexnord|Martin,,Protector de seguridad para retorno,,,,,,,,,,no,si
+14015,rodillos,,Marco tensor,PPI|Regal Rexnord|Martin,,Marco tensor,,,,,,,,,,no,si
+14016,rodillos,,Camas de impacto,PPI|Regal Rexnord|Martin,,Camas de impacto,,,,,,,,,,no,si
+15001,poleas,,Tambor Pro Duty,PPI|Martin|Dodge,,Polea tambor Pro Duty,,,,,img/tipos/polea-tambor.webp,,,,,si,si
+15002,poleas,,Tambor Heavy Duty HDD,PPI|Martin|Dodge,,Polea tambor Heavy Duty HDD,,,,,,,,,,no,si
+15003,poleas,,Tambor espiral,PPI|Martin|Dodge,,Polea tambor espiral,,,,,,,,,,no,si
+15004,poleas,,Aletada HDW,PPI|Martin|Dodge,,Polea aletada HDW,,,,,,,,,,no,si
+15005,poleas,,Aletada con espiral,PPI|Martin|Dodge,,Polea aletada con espiral,,,,,,,,,,no,si
+15006,poleas,,Mine Duty MDD,PPI|Martin|Dodge,,Polea Mine Duty MDD,,,,,,,,,,no,si
+15007,poleas,,Mine Duty Extra Wing MDW,PPI|Martin|Dodge,,Polea Mine Duty Extra Wing MDW,,,,,,,,,,no,si
+15008,poleas,,Herringbone HBW,PPI|Martin|Dodge,,Polea Herringbone HBW,,,,,,,,,,no,si
+15009,poleas,,Alta ingeniería,PPI|Martin|Dodge,,Polea alta ingeniería,,,,,,,,,,no,si
+15010,poleas,,Elevadora de disco,PPI|Martin|Dodge,,Polea elevadora de disco,,,,,,,,,,no,si
+15011,poleas,,Ruedas de desviación,PPI|Martin|Dodge,,Ruedas de desviación,,,,,,,,,,no,si
+15012,poleas,,De turbina,PPI|Martin|Dodge,,Polea de turbina,,,,,,,,,,no,si
+15013,poleas,,Ensamble de poleas,PPI|Martin|Dodge,,Ensamble de poleas,,,,,,,,,,no,si
+15014,poleas,,Recubrimientos,PPI|Martin|Dodge,,Recubrimientos,,,,,,,,,,no,si
+15015,poleas,,Flechas,PPI|Martin|Dodge,,Flechas,,,,,,,,,,no,si
+15016,poleas,,Bujes XT,PPI|Martin|Dodge,,Bujes XT,,,,,,,,,,no,si
+16001,cadena-de-tablillas,,Tablilla de acero,Regina|Regal Rexnord,,Cadena tablilla de acero,,,,,img/tipos/tablilla-acero.webp,,,,,si,si
+16002,cadena-de-tablillas,,Tablilla curva de acero,Regina|Regal Rexnord,,Cadena tablilla curva de acero,,,,,,,,,,no,si
+16003,cadena-de-tablillas,,Tablilla de plástico,Regina|Regal Rexnord,,Cadena tablilla de plástico,,,,,,,,,,no,si
+16004,cadena-de-tablillas,,Tablilla curva de plástico,Regina|Regal Rexnord,,Cadena tablilla curva de plástico,,,,,,,,,,no,si
+16005,cadena-de-tablillas,,Engomadas,Regina|Regal Rexnord,,Engomadas,,,,,,,,,,no,si
+16006,cadena-de-tablillas,,Gripper,Regina|Regal Rexnord,,Gripper,,,,,,,,,,no,si
+16007,cadena-de-tablillas,,LBP,Regina|Regal Rexnord,,Cadena LBP,,,,,,,,,,no,si
+16008,cadena-de-tablillas,,Cadenas curvas,Regina|Regal Rexnord,,Cadenas curvas,,,,,,,,,,no,si
+16009,cadena-de-tablillas,,Biplanar,Regina|Regal Rexnord,,Cadena biplanar,,,,,,,,,,no,si
+16010,cadena-de-tablillas,,Carga ligera,Regina|Regal Rexnord,,Cadena carga ligera,,,,,,,,,,no,si
+16011,cadena-de-tablillas,,Carga pesada,Regina|Regal Rexnord,,Cadena carga pesada,,,,,,,,,,no,si
+16012,cadena-de-tablillas,,Carga pesada UCC,Regina|Regal Rexnord,,Cadena carga pesada UCC,,,,,,,,,,no,si
+16013,cadena-de-tablillas,,Carga pesada Raised Rib,Regina|Regal Rexnord,,Cadena carga pesada Raised Rib,,,,,,,,,,no,si
+16014,cadena-de-tablillas,,Peines,Regina|Regal Rexnord,,Peines,,,,,,,,,,no,si
+16015,cadena-de-tablillas,,Sprocket moldeado,Regina|Regal Rexnord,,Sprocket moldeado,,,,,,,,,,no,si
+17001,manejo-de-materiales,,Elevador de cangilones,Martin,,Elevador de cangilones,,,,,img/tipos/elevador-cangilones.webp,,,,,si,si
+17002,manejo-de-materiales,,Transportador de banda,Martin,,Transportador de banda,,,,,,,,,,no,si
+17003,manejo-de-materiales,,Transportador de rastras,Martin,,Transportador de rastras,,,,,,,,,,no,si
+17004,manejo-de-materiales,,Transportador helicoidal,Martin,,Transportador helicoidal,,,,,,,,,,no,si
+17005,manejo-de-materiales,,Componentes,Martin,,Componentes,,,,,,,,,,no,si
+17006,manejo-de-materiales,,Tornillo helicoidal,Martin,,Tornillo helicoidal,,,,,,,,,,no,si
+17007,manejo-de-materiales,,Artesa en U,Martin,,Artesa en U,,,,,,,,,,no,si
+17008,manejo-de-materiales,,Artesa ensanchada,Martin,,Artesa ensanchada,,,,,,,,,,no,si
+17009,manejo-de-materiales,,Compuerta,Martin,,Compuerta,,,,,,,,,,no,si
+17010,manejo-de-materiales,,Descargas,Martin,,Descargas,,,,,,,,,,no,si
+17011,manejo-de-materiales,,Colgantes,Martin,,Colgantes,,,,,,,,,,no,si
+17012,manejo-de-materiales,,Chumacera con eje,Martin,,Chumacera con eje,,,,,,,,,,no,si
+17013,manejo-de-materiales,,Flecha,Martin,,Flecha,,,,,,,,,,no,si
+17014,manejo-de-materiales,,Volante,Martin,,Volante,,,,,,,,,,no,si
+17015,manejo-de-materiales,,Cangilón,Martin,,Cangilón,,,,,,,,,,no,si
+18001,equipo-y-maquinaria,,Extractores,FAG|Timken|Gates|ABB,,Extractores,,,,,img/tipos/extractores.webp,,,,,si,si
+18002,equipo-y-maquinaria,,Montaje y desmontaje de rodamientos,FAG|Timken|Gates|ABB,,Montaje y desmontaje de rodamientos,,,,,,,,,,no,si
+18003,equipo-y-maquinaria,,Calentador por inducción,FAG|Timken|Gates|ABB,,Calentador por inducción,,,,,,,,,,no,si
+18004,equipo-y-maquinaria,,Alineador láser,FAG|Timken|Gates|ABB,,Alineador láser,,,,,,,,,,no,si
+18005,equipo-y-maquinaria,,Alineador de banda,FAG|Timken|Gates|ABB,,Alineador de banda,,,,,,,,,,no,si
+18006,equipo-y-maquinaria,,Medidor de banda,FAG|Timken|Gates|ABB,,Medidor de banda,,,,,,,,,,no,si
+18007,equipo-y-maquinaria,,Tensiómetro,FAG|Timken|Gates|ABB,,Tensiómetro,,,,,,,,,,no,si
+18008,equipo-y-maquinaria,,Smart Sensor,FAG|Timken|Gates|ABB,,Smart Sensor,,,,,,,,,,no,si
+18009,equipo-y-maquinaria,,ProLink CMS,FAG|Timken|Gates|ABB,,ProLink CMS,,,,,,,,,,no,si
+18010,equipo-y-maquinaria,,Smartcheck,FAG|Timken|Gates|ABB,,Smartcheck,,,,,,,,,,no,si
+18011,equipo-y-maquinaria,,MCX-50,FAG|Timken|Gates|ABB,,MCX-50,,,,,,,,,,no,si
+18012,equipo-y-maquinaria,,MCX-40,FAG|Timken|Gates|ABB,,MCX-40,,,,,,,,,,no,si
+18013,equipo-y-maquinaria,,PC-707,FAG|Timken|Gates|ABB,,PC-707,,,,,,,,,,no,si
+18014,equipo-y-maquinaria,,Mobile Crimp 4-20,FAG|Timken|Gates|ABB,,Mobile Crimp 4-20,,,,,,,,,,no,si
+18015,equipo-y-maquinaria,,Crimpadora Polar Seal,FAG|Timken|Gates|ABB,,Crimpadora Polar Seal,,,,,,,,,,no,si
+18016,equipo-y-maquinaria,,Dados para crimpado,FAG|Timken|Gates|ABB,,Dados para crimpado,,,,,,,,,,no,si
+18017,equipo-y-maquinaria,,Crimpadora 855,FAG|Timken|Gates|ABB,,Crimpadora 855,,,,,,,,,,no,si
+18018,equipo-y-maquinaria,,Identificador de roscas,FAG|Timken|Gates|ABB,,Identificador de roscas,,,,,,,,,,no,si
+18019,equipo-y-maquinaria,,Cortador de manguera,FAG|Timken|Gates|ABB,,Cortador de manguera,,,,,,,,,,no,si
+18020,equipo-y-maquinaria,,Cortadora de disco,FAG|Timken|Gates|ABB,,Cortadora de disco,,,,,,,,,,no,si
+19001,lubricacion,,Grasa Arcanol,FAG|Timken|SKF,,Grasa Arcanol,,,,,img/tipos/grasa-arcanol.webp,,,,,si,si
+19002,lubricacion,,Grasa Timken,FAG|Timken|SKF,,Grasa Timken,,,,,,,,,,no,si
+19003,lubricacion,,Lubricador automático Timken,FAG|Timken|SKF,,Lubricador automático Timken,,,,,,,,,,no,si
+19004,lubricacion,,Arcanol 400 g,FAG|Timken|SKF,,Arcanol 400 g,,,,,,,,,,no,si
+19005,lubricacion,,Arcanol 1 kg,FAG|Timken|SKF,,Arcanol 1 kg,,,,,,,,,,no,si
+19006,lubricacion,,Arcanol 25 kg,FAG|Timken|SKF,,Arcanol 25 kg,,,,,,,,,,no,si
+19007,lubricacion,,Bomba de grasa,FAG|Timken|SKF,,Bomba de grasa,,,,,,,,,,no,si
+19008,lubricacion,,Pistola de grasa,FAG|Timken|SKF,,Pistola de grasa,,,,,,,,,,no,si
+19009,lubricacion,,Mangueras para grasa,FAG|Timken|SKF,,Mangueras para grasa,,,,,,,,,,no,si
+19010,lubricacion,,Grease Check,FAG|Timken|SKF,,Grease Check,,,,,,,,,,no,si
+19011,lubricacion,,Lubricador automático FAG,FAG|Timken|SKF,,Lubricador automático FAG,,,,,,,,,,no,si
+19012,lubricacion,,Lubricador de chumaceras,FAG|Timken|SKF,,Lubricador de chumaceras,,,,,,,,,,no,si
+19013,lubricacion,,Lubricador de cadena,FAG|Timken|SKF,,Lubricador de cadena,,,,,,,,,,no,si
+19014,lubricacion,,Lubricador lineal,FAG|Timken|SKF,,Lubricador lineal,,,,,,,,,,no,si
+19015,lubricacion,,Calculador de grasa en línea,FAG|Timken|SKF,,Calculador de grasa en línea,,,,,,,,,,no,si
+20001,herramientas,,Bailarina compactadora,Urrea|Surtek,,Bailarina compactadora,,,,,,,,,,no,si
+20002,herramientas,,Compresor de aire,Urrea|Surtek,,Compresor de aire,,,,,,,,,,no,si
+20003,herramientas,,Gabinete,Urrea|Surtek,,Gabinete,,,,,,,,,,no,si
+20004,herramientas,,Generador a gasolina,Urrea|Surtek,,Generador a gasolina,,,,,,,,,,no,si
+20005,herramientas,,Prensa hidroneumática,Urrea|Surtek,,Prensa hidroneumática,,,,,,,,,,no,si
+20006,herramientas,,Sierra de mesa,Urrea|Surtek,,Sierra de mesa,,,,,,,,,,no,si
+20007,herramientas,,Aceite aflojatodo,Urrea|Surtek,,Aceite aflojatodo,,,,,,,,,,no,si
+20008,herramientas,,Destornilladores,Urrea|Surtek,,Destornilladores,,,,,,,,,,no,si
+20009,herramientas,,Esmeriladora neumática,Urrea|Surtek,,Esmeriladora neumática,,,,,,,,,,no,si
+20010,herramientas,,Juego de brocas,Urrea|Surtek,,Juego de brocas,,,,,,,,,,no,si
+20011,herramientas,,Juego de dados,Urrea|Surtek,,Juego de dados,,,,,img/tipos/juego-de-dados.webp,,,,,si,si
+20012,herramientas,,Juego de llaves,Urrea|Surtek,,Juego de llaves,,,,,,,,,,no,si
+20013,herramientas,,Martillo,Urrea|Surtek,,Martillo,,,,,,,,,,no,si
+20014,herramientas,,Pinzas,Urrea|Surtek,,Pinzas,,,,,,,,,,no,si
+20015,herramientas,,Tornillo de banco,Urrea|Surtek,,Tornillo de banco,,,,,,,,,,no,si
+21001,sellos,Sellos mecánicos,Línea 15,Vazel|SKF|Timken|National,,Línea 15,,,,,,,,,,no,si
+21002,sellos,Sellos mecánicos,Línea A,Vazel|SKF|Timken|National,,Línea A,,,,,img/tipos/sello-linea-a.webp,,,,,si,si
+21003,sellos,Sellos mecánicos,Línea AE,Vazel|SKF|Timken|National,,Línea AE,,,,,,,,,,no,si
+21004,sellos,Sellos mecánicos,Línea AM,Vazel|SKF|Timken|National,,Línea AM,,,,,,,,,,no,si
+21005,sellos,Sellos mecánicos,Línea AR,Vazel|SKF|Timken|National,,Línea AR,,,,,,,,,,no,si
+21006,sellos,Sellos mecánicos,Línea B,Vazel|SKF|Timken|National,,Línea B,,,,,,,,,,no,si
+21007,sellos,Sellos mecánicos,Línea PW,Vazel|SKF|Timken|National,,Línea PW,,,,,,,,,,no,si
+21008,sellos,Sellos mecánicos,Línea 50,Vazel|SKF|Timken|National,,Línea 50,,,,,,,,,,no,si
+21009,sellos,Sellos mecánicos,Línea BU09,Vazel|SKF|Timken|National,,Línea BU09,,,,,,,,,,no,si
+21010,sellos,Sellos mecánicos,Línea D,Vazel|SKF|Timken|National,,Línea D,,,,,,,,,,no,si
+21011,sellos,Sellos mecánicos,Asientos,Vazel|SKF|Timken|National,,Asientos,,,,,,,,,,no,si
+21012,sellos,Retenes,Retén HMS5 y HMSA10,Vazel|SKF|Timken|National,,Retén HMS5 y HMSA10,,,,,,,,,,no,si
+21013,sellos,Retenes,Retén CRS1,Vazel|SKF|Timken|National,,Retén CRS1,,,,,,,,,,no,si
+21014,sellos,Retenes,Retén CRW1,Vazel|SKF|Timken|National,,Retén CRW1,,,,,,,,,,no,si
+21015,sellos,Retenes,Retén CRW5,Vazel|SKF|Timken|National,,Retén CRW5,,,,,,,,,,no,si
+21016,sellos,Retenes,Retén HDW1,Vazel|SKF|Timken|National,,Retén HDW1,,,,,,,,,,no,si
+21017,sellos,Retenes,Retén X,Vazel|SKF|Timken|National,,Retén X,,,,,,,,,,no,si
+21018,sellos,Retenes,Retén de anillo en V,Vazel|SKF|Timken|National,,Retén de anillo en V,,,,,,,,,,no,si
+22001,automotriz,Bandas y poleas,Kit banda serpentín,Gates|Meritor|ECOM|SYD|LTH,,Kit banda serpentín,,,,,,,,,,no,si
+22002,automotriz,Bandas y poleas,Banda de distribución,Gates|Meritor|ECOM|SYD|LTH,,Banda de distribución,,,,,,,,,,no,si
+22003,automotriz,Bandas y poleas,Bandas PQ,Gates|Meritor|ECOM|SYD|LTH,,Bandas PQ,,,,,,,,,,no,si
+22004,automotriz,Bandas y poleas,Banda G-Force Redline,Gates|Meritor|ECOM|SYD|LTH,,Banda G-Force Redline,,,,,,,,,,no,si
+22005,automotriz,Bandas y poleas,Polea loca,Gates|Meritor|ECOM|SYD|LTH,,Polea loca,,,,,,,,,,no,si
+22006,automotriz,Bandas y poleas,Poleas DriveAlign,Gates|Meritor|ECOM|SYD|LTH,,Poleas DriveAlign,,,,,,,,,,no,si
+22007,automotriz,Bandas y poleas,Tensores,Gates|Meritor|ECOM|SYD|LTH,,Tensores,,,,,,,,,,no,si
+22008,automotriz,Bombas,Bomba de agua,Gates|Meritor|ECOM|SYD|LTH,,Bomba de agua,,,,,img/tipos/bomba-de-agua.webp,,,,,si,si
+22009,automotriz,Bombas,Bomba de dirección,Gates|Meritor|ECOM|SYD|LTH,,Bomba de dirección,,,,,,,,,,no,si
+22010,automotriz,Bombas,Válvula solenoide,Gates|Meritor|ECOM|SYD|LTH,,Válvula solenoide,,,,,,,,,,no,si
+22011,automotriz,Mangueras y conexiones,Manguera ramificada,Gates|Meritor|ECOM|SYD|LTH,,Manguera ramificada,,,,,,,,,,no,si
+22012,automotriz,Mangueras y conexiones,Manguera moldeada,Gates|Meritor|ECOM|SYD|LTH,,Manguera moldeada,,,,,,,,,,no,si
+22013,automotriz,Mangueras y conexiones,Manguera Twister,Gates|Meritor|ECOM|SYD|LTH,,Manguera Twister,,,,,,,,,,no,si
+22014,automotriz,Mangueras y conexiones,Manguera Twister GS,Gates|Meritor|ECOM|SYD|LTH,,Manguera Twister GS,,,,,,,,,,no,si
+22015,automotriz,Mangueras y conexiones,Manguera turbocargador,Gates|Meritor|ECOM|SYD|LTH,,Manguera turbocargador,,,,,,,,,,no,si
+22016,automotriz,Mangueras y conexiones,Manguera HD Coolant,Gates|Meritor|ECOM|SYD|LTH,,Manguera HD Coolant,,,,,,,,,,no,si
+22017,automotriz,Mangueras y conexiones,Manguera Charter,Gates|Meritor|ECOM|SYD|LTH,,Manguera Charter,,,,,,,,,,no,si
+22018,automotriz,Mangueras y conexiones,Manguera Durion,Gates|Meritor|ECOM|SYD|LTH,,Manguera Durion,,,,,,,,,,no,si
+22019,automotriz,Mangueras y conexiones,Manguera de aceite,Gates|Meritor|ECOM|SYD|LTH,,Manguera de aceite,,,,,,,,,,no,si
+22020,automotriz,Mangueras y conexiones,Manguera de calefacción,Gates|Meritor|ECOM|SYD|LTH,,Manguera de calefacción,,,,,,,,,,no,si
+22021,automotriz,Mangueras y conexiones,Manguera FLH,Gates|Meritor|ECOM|SYD|LTH,,Manguera FLH,,,,,,,,,,no,si
+22022,automotriz,Mangueras y conexiones,Manguera frenos de aire,Gates|Meritor|ECOM|SYD|LTH,,Manguera frenos de aire,,,,,,,,,,no,si
+22023,automotriz,Mangueras y conexiones,Manguera TNFA,Gates|Meritor|ECOM|SYD|LTH,,Manguera TNFA,,,,,,,,,,no,si
+22024,automotriz,Mangueras y conexiones,Abrazadera sin fin,Gates|Meritor|ECOM|SYD|LTH,,Abrazadera sin fin,,,,,,,,,,no,si
+22025,automotriz,Mangueras y conexiones,Abrazadera T-Bolt,Gates|Meritor|ECOM|SYD|LTH,,Abrazadera T-Bolt,,,,,,,,,,no,si
+22026,automotriz,Mangueras y conexiones,Push-in DOT,Gates|Meritor|ECOM|SYD|LTH,,Push-in DOT,,,,,,,,,,no,si
+22027,automotriz,Mangueras y conexiones,Terminales,Gates|Meritor|ECOM|SYD|LTH,,Terminales,,,,,,,,,,no,si
+22028,automotriz,Mangueras y conexiones,Acopladores manuales,Gates|Meritor|ECOM|SYD|LTH,,Acopladores manuales,,,,,,,,,,no,si
+22029,automotriz,Baterías,Batería Hi-Tec,Gates|Meritor|ECOM|SYD|LTH,,Batería Hi-Tec,,,,,,,,,,no,si
+22030,automotriz,Baterías,Batería Heavy Duty,Gates|Meritor|ECOM|SYD|LTH,,Batería Heavy Duty,,,,,,,,,,no,si
+22031,automotriz,Tren motriz y frenos,Crucetas,Gates|Meritor|ECOM|SYD|LTH,,Crucetas,,,,,,,,,,no,si
+22032,automotriz,Tren motriz y frenos,Matraca manual,Gates|Meritor|ECOM|SYD|LTH,,Matraca manual,,,,,,,,,,no,si
+22033,automotriz,Tren motriz y frenos,Matraca autoajustable,Gates|Meritor|ECOM|SYD|LTH,,Matraca autoajustable,,,,,,,,,,no,si
+22034,automotriz,Tren motriz y frenos,Soporte cardán,Gates|Meritor|ECOM|SYD|LTH,,Soporte cardán,,,,,,,,,,no,si
+22035,automotriz,Tren motriz y frenos,Rotochamber,Gates|Meritor|ECOM|SYD|LTH,,Rotochamber,,,,,,,,,,no,si
+22036,automotriz,Tren motriz y frenos,Retenes,Gates|Meritor|ECOM|SYD|LTH,,Retenes,,,,,,,,,,no,si
+22037,automotriz,Tapones y enfriamiento,Tapón de combustible auto,Gates|Meritor|ECOM|SYD|LTH,,Tapón de combustible auto,,,,,,,,,,no,si
+22038,automotriz,Tapones y enfriamiento,Tapón de combustible camión,Gates|Meritor|ECOM|SYD|LTH,,Tapón de combustible camión,,,,,,,,,,no,si
+22039,automotriz,Tapones y enfriamiento,Tapón anticongelante,Gates|Meritor|ECOM|SYD|LTH,,Tapón anticongelante,,,,,,,,,,no,si
+22040,automotriz,Tapones y enfriamiento,Tapón de radiador,Gates|Meritor|ECOM|SYD|LTH,,Tapón de radiador,,,,,,,,,,no,si
+22041,automotriz,Tapones y enfriamiento,Termostato,Gates|Meritor|ECOM|SYD|LTH,,Termostato,,,,,,,,,,no,si
+22042,automotriz,Suspensión y dirección,Amortiguadores,Gates|Meritor|ECOM|SYD|LTH,,Amortiguadores,,,,,,,,,,no,si
+22043,automotriz,Suspensión y dirección,Base para amortiguador,Gates|Meritor|ECOM|SYD|LTH,,Base para amortiguador,,,,,,,,,,no,si
+22044,automotriz,Suspensión y dirección,Soportes de motor,Gates|Meritor|ECOM|SYD|LTH,,Soportes de motor,,,,,,,,,,no,si
+22045,automotriz,Suspensión y dirección,Bujes,Gates|Meritor|ECOM|SYD|LTH,,Bujes,,,,,,,,,,no,si
+22046,automotriz,Suspensión y dirección,Horquillas,Gates|Meritor|ECOM|SYD|LTH,,Horquillas,,,,,,,,,,no,si
+22047,automotriz,Suspensión y dirección,Rótulas,Gates|Meritor|ECOM|SYD|LTH,,Rótulas,,,,,,,,,,no,si
+22048,automotriz,Suspensión y dirección,Brazo auxiliar,Gates|Meritor|ECOM|SYD|LTH,,Brazo auxiliar,,,,,,,,,,no,si
+22049,automotriz,Suspensión y dirección,Mazas,Gates|Meritor|ECOM|SYD|LTH,,Mazas,,,,,,,,,,no,si
+22050,automotriz,Suspensión y dirección,Junta homocinética,Gates|Meritor|ECOM|SYD|LTH,,Junta homocinética,,,,,,,,,,no,si
+22051,automotriz,Químicos,Aditivo fuel injection,Gates|Meritor|ECOM|SYD|LTH,,Aditivo fuel injection,,,,,,,,,,no,si
+22052,automotriz,Químicos,Líquido para frenos,Gates|Meritor|ECOM|SYD|LTH,,Líquido para frenos,,,,,,,,,,no,si
+22053,automotriz,Químicos,Limpiador de carburador,Gates|Meritor|ECOM|SYD|LTH,,Limpiador de carburador,,,,,,,,,,no,si
+22054,automotriz,Químicos,Limpiador de cuerpo de aceleración,Gates|Meritor|ECOM|SYD|LTH,,Limpiador de cuerpo de aceleración,,,,,,,,,,no,si
+22055,automotriz,Químicos,Limpiador de inyectores,Gates|Meritor|ECOM|SYD|LTH,,Limpiador de inyectores,,,,,,,,,,no,si
+22056,automotriz,Químicos,Gas refrigerante,Gates|Meritor|ECOM|SYD|LTH,,Gas refrigerante,,,,,,,,,,no,si
+22057,automotriz,Químicos,Fijador de tornillos,Gates|Meritor|ECOM|SYD|LTH,,Fijador de tornillos,,,,,,,,,,no,si
+22058,automotriz,Químicos,Silicón sellador,Gates|Meritor|ECOM|SYD|LTH,,Silicón sellador,,,,,,,,,,no,si
+22059,automotriz,Químicos,Grasa,Gates|Meritor|ECOM|SYD|LTH,,Grasa,,,,,,,,,,no,si
+22060,automotriz,Químicos,Limpiaparabrisas,Gates|Meritor|ECOM|SYD|LTH,,Limpiaparabrisas,,,,,,,,,,no,si

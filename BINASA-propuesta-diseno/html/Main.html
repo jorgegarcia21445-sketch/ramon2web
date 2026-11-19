@@ -1,0 +1,611 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>BINASA · Inicio</title>
+
+
+<style>
+body{margin:0;background:#ffffff}
+a{color:#C00510}a:hover{color:#8F0410}
+.bx-tile:hover{border-color:#C00510 !important}
+.bx-btn:hover{background:#C00510 !important}
+.bx-ghost:hover{background:#F4F5F6 !important}
+.bx-nav:hover{color:#C00510 !important}
+.bx-sb:hover{background:#FDECEC !important;color:#B00410 !important}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #1F6FEB;outline-offset:2px}
+</style>
+<style>*{font-family:inherit}</style></head><body>
+
+<div style="font-family: Inter, system-ui, sans-serif; color: #1E1F22; background: #ffffff; min-width: 0">
+
+<!-- Utility bar -->
+<div style="background: #1E1F22; color: #D9DBDF; font-size: 13px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 8px 24px; display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; justify-content: space-between">
+<span>Importador de rodamientos desde 1986 · 23 almacenes en México</span>
+<div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap">
+<a href="#sucursales" style="color: #ffffff; text-decoration: none; display: flex; gap: 6px; align-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>Mi sucursal: <b style="font-weight: 600">Elegir</b></a>
+<div role="group" aria-label="Idioma" style="display: inline-flex; border: 1px solid #4A4D52; border-radius: 4px; overflow: hidden"><button type="button" aria-pressed="true" style="height: 28px; padding: 0 9px; border: 0; background: #ffffff; color: #1E1F22; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer">ES</button><button type="button" aria-pressed="false" style="height: 28px; padding: 0 9px; border: 0; background: transparent; color: #D9DBDF; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer">EN</button></div>
+<div role="group" aria-label="Moneda" style="display: inline-flex; border: 1px solid #4A4D52; border-radius: 4px; overflow: hidden"><button type="button" aria-pressed="true" style="height: 28px; padding: 0 9px; border: 0; background: #ffffff; color: #1E1F22; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer">MXN</button><button type="button" aria-pressed="false" style="height: 28px; padding: 0 9px; border: 0; background: transparent; color: #D9DBDF; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer">USD</button><button type="button" aria-pressed="false" style="height: 28px; padding: 0 9px; border: 0; background: transparent; color: #D9DBDF; font: inherit; font-size: 12px; font-weight: 700; cursor: pointer">EUR</button></div>
+<span>[Teléfono central]</span>
+</div>
+</div>
+</div>
+
+<!-- Header -->
+<header style="border-bottom: 1px solid #E2E4E7; background: #ffffff">
+<div style="max-width: 1240px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: center">
+<a href="Main.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none" aria-label="BINASA, inicio">
+<img src="../assets/binasa-logo.png" alt="BINASA, importador de rodamientos" style="height: 48px; width: auto; display: block">
+</a>
+<form role="search" style="flex: 1 1 380px; display: flex; min-width: 0">
+<label for="q" style="position: absolute; left: -9999px">Buscar productos</label>
+<input id="q" type="search" placeholder="Busca por producto, marca o modelo (ej. 6205-2RS)" style="flex: 1; min-width: 0; height: 46px; padding: 0 16px; border: 1.5px solid #C9CCD1; border-right: 0; border-radius: 4px 0 0 4px; font: inherit; font-size: 15px">
+<button type="submit" class="bx-btn" style="height: 46px; padding: 0 22px; border: 0; border-radius: 0 4px 4px 0; background: #E30613; color: #ffffff; font: inherit; font-weight: 600; cursor: pointer; display: flex; gap: 8px; align-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>Buscar</button>
+</form>
+<a href="Cotizacion.html" class="bx-ghost" style="display: flex; align-items: center; gap: 10px; height: 46px; padding: 0 16px; border: 1.5px solid #1E1F22; border-radius: 4px; color: #1E1F22; text-decoration: none; font-weight: 600">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1z"></path><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M8 12h8M8 16h5"></path></svg>
+Mi cotización <span style="background: #E30613; color: #fff; border-radius: 999px; min-width: 22px; height: 22px; display: inline-flex; align-items: center; justify-content: center; font-size: 12px">3</span>
+</a>
+</div>
+<nav aria-label="Principal" style="max-width: 1240px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 4px 26px; align-items: center; font-size: 14.5px; font-weight: 600; height: auto; min-height: 46px">
+<span style="flex: 1"></span>
+<a class="bx-nav" href="#marcas" style="color: #4A4D52; text-decoration: none">Marcas</a>
+<a class="bx-nav" href="#sucursales" style="color: #4A4D52; text-decoration: none">Sucursales</a>
+<a class="bx-nav" href="#nosotros" style="color: #4A4D52; text-decoration: none">Nosotros</a>
+<a class="bx-nav" href="#contacto" style="color: #4A4D52; text-decoration: none">Contacto</a>
+</nav>
+</header>
+
+<div style="display: flex; flex-wrap: wrap; align-items: stretch">
+<aside aria-label="Productos" style="flex: 0 0 272px; box-sizing: border-box; border-right: 1px solid #E2E4E7; background: #FAFAFB; padding: 18px 14px 32px">
+<form role="search" style="position: relative">
+<label for="sbq" style="position: absolute; left: -9999px">Buscar en el catálogo</label>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6B6F76" stroke-width="2.2" aria-hidden="true" style="position: absolute; left: 12px; top: 13px"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+<input id="sbq" type="search" placeholder="Buscar en el catálogo" style="width: 100%; box-sizing: border-box; height: 42px; padding: 0 12px 0 36px; border: 1.5px solid #D9DBDF; border-radius: 4px; font: inherit; font-size: 14px; background: #ffffff">
+</form>
+<p style="margin: 20px 8px 8px; font-size: 12px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; color: #6B6F76">Líneas de producto</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px">
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/rodamiento.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Rodamientos</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/lineal.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Rodamientos lineales</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/chumacera-piso.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Chumaceras</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/polea.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Transmisión de potencia</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/cadena.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Cadenas</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/motor.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Motores eléctricos / Drives</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/reductor.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Reductores</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/banda.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Banda industrial</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/manguera.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Mangueras y conexiones industriales</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/hidraulica.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Mangueras y conexiones hidráulicas</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/laton.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Latón</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/neumatica.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Neumática</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/banda-transportadora.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Bandas transportadoras</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/rodillo.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Rodillos</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/polea-tambor.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Poleas</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/tablilla.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Cadena de tablillas</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/cangilones.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Manejo de materiales</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/extractor.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Equipo y maquinaria</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/grasa.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Lubricación</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/herramienta.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Herramientas</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/sello.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Sellos mecánicos / retenes</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+<li><a href="MenuLateral.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 4px 8px; border-radius: 4px; color: #1E1F22; text-decoration: none; font-size: 14px; font-weight: 500; line-height: 1.25">
+<img src="../assets/automotriz.jpg" alt="" style="width: 32px; height: 32px; object-fit: contain; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; flex: none">
+<span style="flex: 1">Automotriz ligero / pesado</span>
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9EA2A9" stroke-width="2.4" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+</a></li>
+
+</ul>
+<p style="margin: 22px 8px 8px; font-size: 12px; font-weight: 700; letter-spacing: .6px; text-transform: uppercase; color: #6B6F76">Atajos</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; font-size: 14px; font-weight: 500">
+<li><a href="Cotizacion.html" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 8px; border-radius: 4px; color: #1E1F22; text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C00510" stroke-width="2" aria-hidden="true"><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M8 12h8M8 16h5"></path></svg><span style="flex: 1">Mi cotización</span><span style="background: #E30613; color: #fff; border-radius: 999px; min-width: 20px; height: 20px; font-size: 11px; display: inline-flex; align-items: center; justify-content: center">3</span></a></li>
+<li><a href="#sucursales" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 8px; border-radius: 4px; color: #1E1F22; text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C00510" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>Sucursales</a></li>
+<li><a href="#marcas" class="bx-sb" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 8px; border-radius: 4px; color: #1E1F22; text-decoration: none"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C00510" stroke-width="2" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg>Marcas</a></li>
+</ul>
+</aside>
+<main style="flex: 999 1 640px; min-width: 0">
+<!-- Hero -->
+<section style="background: #F4F5F6; border-bottom: 1px solid #E2E4E7">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 1 1 460px; min-width: 0">
+<p style="margin: 0 0 14px; display: inline-flex; gap: 8px; align-items: center; font-size: 13px; font-weight: 700; letter-spacing: .8px; text-transform: uppercase; color: #C00510"><span style="width: 24px; height: 3px; background: #E30613"></span>Transmisión de potencia, hidráulica y neumática</p>
+<h1 style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 52px; line-height: 1.04; letter-spacing: -.3px">Rodamientos y componentes industriales, cotizados por tu sucursal más cercana.</h1>
+<p style="margin: 18px 0 0; font-size: 17px; line-height: 1.6; color: #4A4D52; max-width: 560px">Explora 22 líneas de producto de más de 40 marcas. Arma tu lista con cantidades y notas, y envíala por WhatsApp o correo: tu sucursal te responde con precio y disponibilidad.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px">
+<a href="Linea.html" class="bx-btn" style="display: inline-flex; align-items: center; height: 50px; padding: 0 24px; background: #E30613; color: #ffffff; border-radius: 4px; text-decoration: none; font-weight: 600">Explorar catálogo</a>
+<a href="Cotizacion.html" class="bx-ghost" style="display: inline-flex; align-items: center; height: 50px; padding: 0 22px; border: 1.5px solid #1E1F22; color: #1E1F22; border-radius: 4px; text-decoration: none; font-weight: 600; background: #ffffff">Solicitar cotización</a>
+<a href="#contacto" style="display: inline-flex; align-items: center; gap: 8px; height: 50px; padding: 0 8px; color: #1E1F22; text-decoration: none; font-weight: 600"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E8E3E" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"></path></svg>Contactar asesor</a>
+</div>
+</div>
+<div style="flex: 1 1 440px; min-width: 0; position: relative">
+<img src="../assets/hero-motores.jpg" alt="Motores eléctricos industriales en línea de producción" style="width: 100%; height: 400px; object-fit: cover; border-radius: 4px; display: block">
+<div style="position: absolute; left: -16px; bottom: 24px; background: #ffffff; border: 1px solid #E2E4E7; border-left: 4px solid #E30613; padding: 14px 18px; box-shadow: 0 12px 28px -16px rgba(0,0,0,.35)">
+<p style="margin: 0; font-size: 12px; color: #6B6F76; font-weight: 600; text-transform: uppercase; letter-spacing: .5px">Sin pagos en línea</p>
+<p style="margin: 4px 0 0; font-weight: 600">Precio y existencia, confirmados por tu sucursal</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Figures -->
+<section aria-label="BINASA en cifras" style="border-bottom: 1px solid #E2E4E7">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr))">
+<div style="padding: 26px 20px; border-right: 1px solid #E2E4E7"><p style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 40px; color: #E30613">1986</p><p style="margin: 2px 0 0; color: #4A4D52; font-size: 14px">Empresa 100% mexicana, fundada en Guadalajara</p></div>
+<div style="padding: 26px 20px; border-right: 1px solid #E2E4E7"><p style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 40px; color: #1E1F22">23</p><p style="margin: 2px 0 0; color: #4A4D52; font-size: 14px">Almacenes en el territorio nacional</p></div>
+<div style="padding: 26px 20px; border-right: 1px solid #E2E4E7"><p style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 40px; color: #1E1F22">13,000 m²</p><p style="margin: 2px 0 0; color: #4A4D52; font-size: 14px">De almacén a nivel nacional</p></div>
+<div style="padding: 26px 20px"><p style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 40px; color: #1E1F22">+40</p><p style="margin: 2px 0 0; color: #4A4D52; font-size: 14px">Marcas con distribución autorizada</p></div>
+</div>
+</section>
+
+<!-- Product lines -->
+<section id="lineas" style="padding: 64px 0">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
+<div style="display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: end; justify-content: space-between; margin-bottom: 28px">
+<div>
+<h2 style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 36px">22 líneas de producto</h2>
+<p style="margin: 6px 0 0; color: #4A4D52">Elige una línea para ver sus tipos de producto y las marcas disponibles.</p>
+</div>
+<a href="Linea.html" style="font-weight: 600; text-decoration: none">Ver catálogo completo →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(178px, 1fr)); gap: 14px">
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/rodamiento.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Rodamientos</span>
+<span style="font-size: 13px; color: #6B6F76">20 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/lineal.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Rodamientos lineales</span>
+<span style="font-size: 13px; color: #6B6F76">10 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/chumacera-piso.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Chumaceras</span>
+<span style="font-size: 13px; color: #6B6F76">35 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/polea.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Transmisión de potencia</span>
+<span style="font-size: 13px; color: #6B6F76">68 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/cadena.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Cadenas</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/motor.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Motores eléctricos / Drives</span>
+<span style="font-size: 13px; color: #6B6F76">20 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/reductor.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Reductores</span>
+<span style="font-size: 13px; color: #6B6F76">20 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/banda.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Banda industrial</span>
+<span style="font-size: 13px; color: #6B6F76">30 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/manguera.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Mangueras y conexiones industriales</span>
+<span style="font-size: 13px; color: #6B6F76">32 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/hidraulica.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Mangueras y conexiones hidráulicas</span>
+<span style="font-size: 13px; color: #6B6F76">80 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/laton.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Latón</span>
+<span style="font-size: 13px; color: #6B6F76">20 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/neumatica.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Neumática</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/banda-transportadora.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Bandas transportadoras</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/rodillo.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Rodillos</span>
+<span style="font-size: 13px; color: #6B6F76">16 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/polea-tambor.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Poleas</span>
+<span style="font-size: 13px; color: #6B6F76">16 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/tablilla.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Cadena de tablillas</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/cangilones.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Manejo de materiales</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/extractor.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Equipo y maquinaria</span>
+<span style="font-size: 13px; color: #6B6F76">20 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/grasa.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Lubricación</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/herramienta.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Herramientas</span>
+<span style="font-size: 13px; color: #6B6F76">15 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/sello.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Sellos mecánicos / retenes</span>
+<span style="font-size: 13px; color: #6B6F76">20 tipos</span>
+</span>
+</a>
+
+<a href="Linea.html" class="bx-tile" style="display: flex; flex-direction: column; border: 1px solid #E2E4E7; border-radius: 4px; text-decoration: none; color: #1E1F22; background: #ffffff; overflow: hidden">
+<span style="display: block; background: #ffffff; padding: 10px 10px 0"><img src="../assets/automotriz.jpg" alt="" loading="lazy" style="width: 100%; aspect-ratio: 1 / 1; object-fit: contain; display: block"></span>
+<span style="display: flex; flex-direction: column; gap: 2px; padding: 10px 14px 14px; border-top: 1px solid #F0F1F3">
+<span style="font-weight: 600; font-size: 15px; line-height: 1.25">Automotriz ligero / pesado</span>
+<span style="font-size: 13px; color: #6B6F76">60 tipos</span>
+</span>
+</a>
+
+</div>
+</div>
+</section>
+
+<!-- How quoting works -->
+<section style="background: #1E1F22; color: #ffffff; padding: 60px 0">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
+<h2 style="margin: 0 0 6px; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 36px">Cotizar es así de simple</h2>
+<p style="margin: 0 0 32px; color: #C9CCD1">Sin registro ni pagos en línea. Tú armas la lista; tu sucursal te responde.</p>
+<ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px">
+<li style="border-top: 3px solid #E30613; padding-top: 18px"><span style="font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 28px; color: #FF5A63">01</span><h3 style="margin: 6px 0 6px; font-size: 18px">Agrega productos</h3><p style="margin: 0; color: #C9CCD1; line-height: 1.55">Desde el catálogo o el buscador, con la cantidad que necesitas.</p></li>
+<li style="border-top: 3px solid #E30613; padding-top: 18px"><span style="font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 28px; color: #FF5A63">02</span><h3 style="margin: 6px 0 6px; font-size: 18px">Añade notas</h3><p style="margin: 0; color: #C9CCD1; line-height: 1.55">Medida, modelo o aplicación. ¿No está en el catálogo? Escríbelo tal cual.</p></li>
+<li style="border-top: 3px solid #E30613; padding-top: 18px"><span style="font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 28px; color: #FF5A63">03</span><h3 style="margin: 6px 0 6px; font-size: 18px">Envía a tu sucursal</h3><p style="margin: 0; color: #C9CCD1; line-height: 1.55">Por WhatsApp o correo. Te respondemos con precio y disponibilidad.</p></li>
+</ol>
+</div>
+</section>
+
+<!-- Brands -->
+<section id="marcas" style="padding: 64px 0">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
+<h2 style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 36px">Distribuidores autorizados</h2>
+<p style="margin: 6px 0 24px; color: #4A4D52">Marcas líderes en rodamientos, transmisión de potencia, hidráulica y neumática.</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); border-top: 1px solid #E2E4E7; border-left: 1px solid #E2E4E7">
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">ABB</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Baldor</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Brecoflex</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Continental</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Depreux</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Dodge</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">DPI</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">ECOM</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">FAG</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Falk</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Fersa</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Gates</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">INA</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Jason Industrial</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">JTEKT Koyo</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Link-Belt</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Lock</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">LTH</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Marathon</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Martin</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Megadyne</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Morse</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">National</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">NORD</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Optibelt</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">PEER</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">PFI</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">PPI</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Regina</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Rema Tip Top</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Regal Rexnord</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">SEW Eurodrive</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Sumitomo</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Surtek</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">SYD</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Timken</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Urrea</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">Vazel</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">WEG</a></li>
+
+<li style="border-right: 1px solid #E2E4E7; border-bottom: 1px solid #E2E4E7"><a href="#marcas" style="display: flex; align-items: center; justify-content: center; height: 64px; padding: 0 10px; text-align: center; color: #4A4D52; text-decoration: none; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 17px; letter-spacing: .3px; text-transform: uppercase">ZSG Chains</a></li>
+
+</ul>
+</div>
+</section>
+
+<!-- Branches -->
+<section id="sucursales" style="background: #F4F5F6; padding: 64px 0; border-top: 1px solid #E2E4E7">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 1 1 380px; min-width: 0">
+<h2 style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 36px">23 almacenes en México</h2>
+<p style="margin: 6px 0 20px; color: #4A4D52; line-height: 1.55">Elige tu sucursal y tus cotizaciones llegarán directo a ella. La recordamos mientras navegas.</p>
+<label for="suc" style="display: block; font-weight: 600; font-size: 14px; margin-bottom: 6px">Mi sucursal</label>
+<div style="display: flex; gap: 8px; flex-wrap: wrap">
+<input id="suc" type="search" placeholder="Escribe tu ciudad o estado" style="flex: 1 1 220px; height: 46px; padding: 0 14px; border: 1.5px solid #C9CCD1; border-radius: 4px; font: inherit; background: #fff">
+<a href="#sucursales" class="bx-btn" style="display: inline-flex; align-items: center; height: 46px; padding: 0 18px; background: #E30613; color: #fff; border-radius: 4px; text-decoration: none; font-weight: 600">Ver sucursales</a>
+</div>
+<ul style="list-style: none; margin: 24px 0 0; padding: 0; columns: 3; column-gap: 20px; font-size: 14.5px; line-height: 2">
+<li>Aguascalientes</li><li>Chihuahua</li><li>Ciudad de México</li><li>Ciudad Obregón</li><li>Estado de México</li><li>Guadalajara</li><li>Guaymas</li><li>Hermosillo</li><li>La Paz</li><li>León</li><li>Manzanillo</li><li>Mérida</li><li>Mexicali</li><li>Monterrey</li><li>Puebla</li><li>Puerto Vallarta</li><li>Saltillo</li><li>San Luis Potosí</li><li>Tampico</li><li>Tijuana</li><li>Tlaquepaque</li><li>Tula</li><li>Veracruz</li>
+</ul>
+</div>
+<div style="flex: 1 1 520px; min-width: 0; background: #ffffff; border: 1px solid #E2E4E7; border-radius: 4px; padding: 24px">
+<img src="../assets/mapa-mexico.png" alt="Mapa de México con los 18 estados donde BINASA tiene almacén marcados en rojo" style="width: 100%; height: auto; display: block">
+<p style="margin: 16px 0 0; display: flex; gap: 18px; font-size: 13px; color: #4A4D52"><span style="display: inline-flex; gap: 6px; align-items: center"><i style="width: 12px; height: 12px; background: #E30613; border-radius: 2px; display: inline-block"></i>Estado con almacén BINASA</span><span style="display: inline-flex; gap: 6px; align-items: center"><i style="width: 12px; height: 12px; background: #F0F1F3; border-radius: 2px; display: inline-block"></i>Atendido desde la sucursal más cercana</span></p>
+</div>
+</div>
+</section>
+
+<!-- Clients -->
+<section aria-labelledby="clientesT" style="padding: 56px 0">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
+<h2 id="clientesT" style="margin: 0 0 20px; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 28px; text-align: center">Nuestros clientes respaldan nuestra experiencia en la industria</h2>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 36px">
+<li style="font-weight: 600; color: #6B6F76; font-size: 16px">ArcelorMittal</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Boleo</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">CFE</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Grupo Fertinal</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Heineken</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Holcim</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Hutchison Ports</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Hyundai</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Ingenios Santos</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Peña Colorada</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Pepsi</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">PSF</li><li style="font-weight: 600; color: #6B6F76; font-size: 16px">Tuny</li>
+</ul>
+</div>
+</section>
+
+<!-- About + CTA -->
+<section id="nosotros" style="border-top: 1px solid #E2E4E7; padding: 64px 0">
+<div style="max-width: 1240px; margin: 0 auto; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<img src="../assets/almacen.jpg" alt="Personal de almacén BINASA moviendo tarimas" style="flex: 1 1 460px; min-width: 0; width: 100%; height: 320px; object-fit: cover; border-radius: 4px">
+<div style="flex: 1 1 420px; min-width: 0">
+<h2 style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 36px">Servicio, calidad y precio</h2>
+<p style="margin: 12px 0 0; line-height: 1.65; color: #4A4D52">Empresa 100% mexicana que inició operaciones en 1986 en Guadalajara, Jalisco, con la importación de rodamientos. Hoy complementamos la gama con transmisión de potencia, hidráulica y neumática, y optimizamos costos con alianzas con nuestros proveedores.</p>
+<p style="margin: 18px 0 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 22px; color: #C00510">¡Binasa… Calidad y Confianza!</p>
+<a href="#nosotros" style="display: inline-block; margin-top: 14px; font-weight: 600; text-decoration: none">Conoce más de BINASA →</a>
+</div>
+</div>
+</section>
+
+<section id="contacto" style="background: #E30613; color: #ffffff">
+<div style="max-width: 1240px; margin: 0 auto; padding: 40px 24px; display: flex; flex-wrap: wrap; gap: 20px 40px; align-items: center; justify-content: space-between">
+<div>
+<h2 style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 32px">¿No encuentras lo que buscas?</h2>
+<p style="margin: 6px 0 0; font-size: 16px">Escribe el modelo o la medida y lo cotizamos por ti.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="Cotizacion.html" style="display: inline-flex; align-items: center; height: 50px; padding: 0 22px; background: #ffffff; color: #B00410; border-radius: 4px; text-decoration: none; font-weight: 700">Pedir una cotización</a>
+<a href="#contacto" style="display: inline-flex; align-items: center; gap: 8px; height: 50px; padding: 0 22px; border: 1.5px solid #ffffff; color: #ffffff; border-radius: 4px; text-decoration: none; font-weight: 600">Escribir por WhatsApp</a>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+<footer style="background: #1E1F22; color: #C9CCD1; font-size: 14px">
+<div style="max-width: 1240px; margin: 0 auto; padding: 48px 24px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px">
+<div>
+<p style="margin: 0; font-family: 'Barlow Semi Condensed','Inter Display',sans-serif; font-weight: 700; font-size: 28px; color: #ffffff">BINASA</p>
+<p style="margin: 6px 0 0; line-height: 1.6">Rodamientos, transmisión de potencia, hidráulica y neumática. Desde 1986.</p>
+<p style="margin: 12px 0 0">Facebook y LinkedIn: /BinasaMexicali</p>
+</div>
+<nav aria-label="Catálogo"><p style="margin: 0 0 10px; color: #ffffff; font-weight: 600">Catálogo</p><a href="Linea.html" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Líneas de producto</a><a href="#marcas" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Marcas</a><a href="Cotizacion.html" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Mi cotización</a></nav>
+<nav aria-label="Empresa"><p style="margin: 0 0 10px; color: #ffffff; font-weight: 600">Empresa</p><a href="#nosotros" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Nosotros</a><a href="#sucursales" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Sucursales</a><a href="#contacto" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Contacto</a><a href="#contacto" style="display: block; color: #C9CCD1; text-decoration: none; line-height: 2">Aviso de privacidad</a></nav>
+<div><p style="margin: 0 0 10px; color: #ffffff; font-weight: 600">Contacto</p><p style="margin: 0; line-height: 2">[Teléfono central]<br>[Correo de ventas]<br>[Dirección matriz]</p></div>
+</div>
+<div style="max-width: 1240px; margin: 0 auto; padding: 16px 24px; border-top: 1px solid #34363B; font-size: 13px; color: #9EA2A9">© BINASA. Precios y disponibilidad sujetos a confirmación de cada sucursal.</div>
+</footer>
+
+</div>
+</body></html>

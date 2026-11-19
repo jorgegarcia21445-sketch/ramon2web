@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BINASA | Rodamientos, transmisión de potencia, hidráulica y neumática</title>
+  <meta name="description" content="BINASA, importador de rodamientos desde 1986. Catálogo de 22 líneas industriales: rodamientos, chumaceras, transmisión de potencia, motores, reductores, bandas, hidráulica y neumática. Cotiza en tu sucursal: 23 almacenes en México.">
+  <meta name="theme-color" content="#E30613">
+  <!-- Cuando el dominio esté definido, cambia DOMINIO por la dirección real (ej. https://www.binasa.com.mx/) -->
+  <!-- <link rel="canonical" href="https://DOMINIO/"> -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BINASA">
+  <meta property="og:title" content="BINASA | Rodamientos y componentes industriales">
+  <meta property="og:description" content="Catálogo de 22 líneas industriales. Arma tu cotización y envíala a tu sucursal por WhatsApp.">
+  <meta property="og:image" content="img/og-binasa.jpg">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:locale:alternate" content="en_US">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="stylesheet" href="index.css?v=1.0.0">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"BINASA","description":"Importador de rodamientos, componentes de transmisión de potencia, hidráulica y neumática. Empresa 100% mexicana fundada en 1986 en Guadalajara, Jalisco.","foundingDate":"1986","foundingLocation":"Guadalajara, Jalisco, México","slogan":"¡Binasa… Calidad y Confianza!"}</script>
+</head>
+<body>
+  <a class="saltar" href="#app" data-i18n="saltar">Saltar al contenido</a>
+
+  <!-- BARRA SUPERIOR: sucursal, idioma, moneda -->
+  <div class="util">
+    <div class="wrap util-in">
+      <span class="util-txt" data-i18n="util">Importador de rodamientos desde 1986 · 23 almacenes en México</span>
+      <div class="util-acc">
+        <button type="button" class="util-suc" data-abrir-sucursal>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-i18n="miSucursal">Mi sucursal</span>: <b data-sucursal-nombre>—</b>
+        </button>
+        <div class="seg seg-osc" role="group" aria-label="Idioma / Language" data-seg="idioma">
+          <button type="button" data-valor="es" lang="es">ES</button><button type="button" data-valor="en" lang="en">EN</button>
+        </div>
+        <div class="seg seg-osc" role="group" aria-label="Moneda" data-seg="moneda" data-i18n-aria="moneda"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ENCABEZADO -->
+  <header class="cab">
+    <div class="wrap cab-in">
+      <button type="button" class="cab-menu" data-abrir-cajon aria-controls="cajon" aria-expanded="false" data-i18n-aria="abrirLineas" aria-label="Abrir líneas de producto">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+      <a href="#/" class="marca-logo" aria-label="BINASA, inicio">
+        <img src="img/binasa-logo-450.png" alt="BINASA, importador de rodamientos" width="225" height="50">
+      </a>
+      <form class="busca" id="busca" role="search" autocomplete="off">
+        <label for="buscaQ" class="sr" data-i18n="buscarProductos">Buscar productos</label>
+        <input id="buscaQ" type="search" data-i18n-ph="buscaPh" placeholder="Busca por producto, marca o modelo (ej. 6205-2RS)" aria-controls="buscaSug" aria-expanded="false" aria-autocomplete="list">
+        <button type="submit" class="btn btn-busca"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span data-i18n="buscar">Buscar</span></button>
+        <div class="sug" id="buscaSug" role="listbox" hidden></div>
+      </form>
+      <a href="#/cotizacion" class="btn-cot">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1z"/><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M8 12h8M8 16h5"/></svg>
+        <span class="btn-cot-txt" data-i18n="miCotizacion">Mi cotización</span>
+        <span class="contador" data-contador hidden>0</span>
+      </a>
+    </div>
+    <nav class="wrap nav" aria-label="Principal">
+      <a href="#/" data-ruta="inicio" data-i18n="inicio">Inicio</a>
+      <a href="#/marcas" data-ruta="marcas" data-i18n="marcas">Marcas</a>
+      <a href="#/sucursales" data-ruta="sucursales" data-i18n="sucursales">Sucursales</a>
+      <a href="#/nosotros" data-ruta="nosotros" data-i18n="nosotros">Nosotros</a>
+      <a href="#/contacto" data-ruta="contacto" data-i18n="contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <div class="cuerpo">
+    <!-- MENÚ LATERAL DE LÍNEAS (lo llena index.js) -->
+    <aside class="lat" id="lateral" aria-label="Líneas de producto" data-i18n-aria="lineasProducto"></aside>
+    <!-- Panel con los tipos de una línea (escritorio) -->
+    <section class="volado" id="volado" hidden aria-live="polite"></section>
+    <div class="velo" id="velo" hidden></div>
+
+    <main id="app" tabindex="-1">
+      <noscript>
+        <div class="wrap" style="padding:40px 0">
+          <h1>BINASA — Rodamientos, transmisión de potencia, hidráulica y neumática</h1>
+          <p>Empresa 100% mexicana, desde 1986. 22 líneas de producto y 23 almacenes en México. Activa JavaScript para ver el catálogo y armar tu cotización.</p>
+        </div>
+      </noscript>
+    </main>
+  </div>
+
+  <!-- PIE -->
+  <footer class="pie">
+    <div class="wrap pie-in">
+      <div class="pie-marca">
+        <p class="pie-nombre">BINASA</p>
+        <p data-i18n="pieTxt">Rodamientos, transmisión de potencia, hidráulica y neumática. Desde 1986.</p>
+        <p class="pie-lema">¡Binasa… Calidad y Confianza!</p>
+      </div>
+      <nav aria-label="Catálogo">
+        <p class="pie-tit" data-i18n="catalogo">Catálogo</p>
+        <a href="#/lineas" data-i18n="lineasProducto">Líneas de producto</a>
+        <a href="#/marcas" data-i18n="marcas">Marcas</a>
+        <a href="#/cotizacion" data-i18n="miCotizacion">Mi cotización</a>
+      </nav>
+      <nav aria-label="Empresa">
+        <p class="pie-tit" data-i18n="empresa">Empresa</p>
+        <a href="#/nosotros" data-i18n="nosotros">Nosotros</a>
+        <a href="#/sucursales" data-i18n="sucursales">Sucursales</a>
+        <a href="#/contacto" data-i18n="contacto">Contacto</a>
+        <a href="#/aviso-privacidad" data-i18n="aviso">Aviso de privacidad</a>
+      </nav>
+      <div>
+        <p class="pie-tit" data-i18n="contacto">Contacto</p>
+        <div id="pieContacto"></div>
+      </div>
+    </div>
+    <div class="wrap pie-bajo">
+      <span>© <span id="anio">2026</span> BINASA.</span>
+      <span data-i18n="pieNota">Precios y disponibilidad sujetos a confirmación de cada sucursal. Sin pagos en línea.</span>
+    </div>
+  </footer>
+
+  <!-- MENÚ MÓVIL -->
+  <nav class="cajon" id="cajon" aria-label="Menú" hidden></nav>
+
+  <!-- BARRA INFERIOR EN TELÉFONOS -->
+  <nav class="bb" aria-label="Navegación rápida">
+    <a href="#/" data-bb="inicio"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span data-i18n="inicio">Inicio</span></a>
+    <button type="button" data-abrir-cajon aria-controls="cajon" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg><span data-i18n="lineas">Líneas</span></button>
+    <button type="button" data-bb="buscar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span data-i18n="buscar">Buscar</span></button>
+    <a href="#/cotizacion" data-bb="cotizacion"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M8 12h8M8 16h5"/></svg><span data-i18n="cotizacion">Cotización</span><b class="contador" data-contador hidden>0</b></a>
+    <a href="#/sucursales" data-bb="sucursales"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span data-i18n="sucursales">Sucursales</span></a>
+  </nav>
+
+  <!-- ELEGIR SUCURSAL -->
+  <dialog class="dlg" id="dlgSucursal" aria-labelledby="dlgSucTit">
+    <div class="dlg-cab">
+      <h2 id="dlgSucTit" data-i18n="eligeSucursal">Elige tu sucursal</h2>
+      <button type="button" class="dlg-x" data-cerrar aria-label="Cerrar" data-i18n-aria="cerrar">×</button>
+    </div>
+    <p class="dlg-sub" data-i18n="eligeSucursalTxt">Tus cotizaciones se enviarán a esta sucursal. La recordamos mientras navegas.</p>
+    <label for="sucQ" class="sr" data-i18n="buscarSucursal">Buscar sucursal</label>
+    <input id="sucQ" type="search" class="campo" data-i18n-ph="sucPh" placeholder="Escribe tu ciudad o estado">
+    <ul class="suc-ops" id="sucOps"></ul>
+  </dialog>
+
+  <div class="aviso-toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <a class="wa-fab" id="waFab" href="https://wa.me/" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.2A12.8 12.8 0 0 0 4.8 22.2L3.2 28.8l6.8-1.6A12.8 12.8 0 1 0 16 3.2zm0 23.2a10.4 10.4 0 0 1-5.3-1.4l-.4-.2-4 .9 1-3.9-.3-.4A10.4 10.4 0 1 1 16 26.4zm5.7-7.8c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.5 8.5 0 0 1-4.2-3.7c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-1-2.3c-.2-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.8.4 3.5 3.5 0 0 0-1.1 2.6 6 6 0 0 0 1.3 3.2 13.8 13.8 0 0 0 5.3 4.7c2 .8 2.8.9 3.8.7a3.2 3.2 0 0 0 2.1-1.5 2.6 2.6 0 0 0 .2-1.5c-.1-.1-.3-.2-.7-.4z"/></svg>
+  </a>
+
+  <script src="promos.js?v=1.0.0"></script>
+  <script src="contenido.js?v=1.0.0"></script>
+  <script src="index.js?v=1.0.0"></script>
+</body>
+</html>

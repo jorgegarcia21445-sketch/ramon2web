@@ -1,0 +1,10 @@
+BINASA - Propuesta de diseño UI/UX (borrador para revisión)
+
+- BINASA-propuesta-de-diseno.pdf : todas las pantallas en un solo archivo.
+- img/      : cada pantalla como imagen PNG (escritorio y móvil 390 px).
+- html/     : las pantallas como páginas web; abre html/Main.html en el navegador.
+              Los enlaces entre pantallas funcionan; los botones son de muestra.
+
+Los textos entre [corchetes] (precios, teléfonos, descripciones) son espacios
+pendientes de llenar con información oficial de BINASA.
+No hay pagos en línea: el sitio es catálogo + solicitud de cotización.

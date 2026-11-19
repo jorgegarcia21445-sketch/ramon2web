@@ -1,0 +1,23 @@
+id,orden,nombre,nombre_en,descripcion,descripcion_en,marcas,foto
+rodamientos,1,Rodamientos,Bearings,,,INA|FAG|JTEKT Koyo|DPI|PEER|PFI Bearings|Fersa|RHP|Regal Rexnord|SKF,img/lineas/rodamientos.webp
+rodamientos-lineales,2,Rodamientos lineales,Linear bearings,,,INA|THK|HIWIN|Nadella|McGill|Thomson,img/lineas/rodamientos-lineales.webp
+chumaceras,3,Chumaceras,Mounted bearings,,,Dodge|FAG|Timken|DPI|PEER|Link-Belt|Browning|Sealmaster|RHP|SKF,img/lineas/chumaceras.webp
+transmision-de-potencia,4,Transmisión de potencia,Power transmission,,,Martin|FAG|Dodge|Timken|Link-Belt|Falk|Optibelt|PPI,img/lineas/transmision-de-potencia.webp
+cadenas,5,Cadenas,Chains,,,Browning|Link-Belt|Morse|Regina|ZSG Chains,img/lineas/cadenas.webp
+motores,6,Motores eléctricos / Drives,Electric motors / Drives,,,ABB|Baldor|WEG|SEW Eurodrive|NORD|Regal Rexnord|Falk|Sealmaster|Sumitomo|Marathon,img/lineas/motores.webp
+reductores,7,Reductores,Gear reducers,,,Dodge|SEW Eurodrive|NORD|Falk|WEG|Sumitomo,img/lineas/reductores.webp
+banda-industrial,8,Banda industrial,Industrial belts,,,Gates|Megadyne|Optibelt|Continental|Brecoflex|Bando,img/lineas/banda-industrial.webp
+mangueras-industriales,9,Mangueras y conexiones industriales,Industrial hoses and fittings,,,Gates|Jason Industrial|Continental,img/lineas/mangueras-industriales.webp
+mangueras-hidraulicas,10,Mangueras y conexiones hidráulicas,Hydraulic hoses and fittings,,,Gates|Jason Industrial|Continental,img/lineas/mangueras-hidraulicas.webp
+laton,11,Latón,Brass fittings,,,Gates,img/lineas/laton.webp
+neumatica,12,Neumática,Pneumatics,,,Gates|Norgren,img/lineas/neumatica.webp
+bandas-transportadoras,13,Bandas transportadoras,Conveyor belts,,,Depreux|Flexco|Rema Tip Top|Maxi-Lift,img/lineas/bandas-transportadoras.webp
+rodillos,14,Rodillos,Conveyor idlers,,,PPI|Regal Rexnord|Martin,img/lineas/rodillos.webp
+poleas,15,Poleas,Conveyor pulleys,,,PPI|Martin|Dodge,img/lineas/poleas.webp
+cadena-de-tablillas,16,Cadena de tablillas,Tabletop chains,,,Regina|Regal Rexnord,img/lineas/cadena-de-tablillas.webp
+manejo-de-materiales,17,Manejo de materiales,Material handling,,,Martin,img/lineas/manejo-de-materiales.webp
+equipo-y-maquinaria,18,Equipo y maquinaria,Tools and machinery,,,FAG|Timken|Gates|ABB,img/lineas/equipo-y-maquinaria.webp
+lubricacion,19,Lubricación,Lubrication,,,FAG|Timken|SKF,img/lineas/lubricacion.webp
+herramientas,20,Herramientas,Tools,,,Urrea|Surtek,img/lineas/herramientas.webp
+sellos,21,Sellos mecánicos / retenes,Mechanical seals / oil seals,,,Vazel|SKF|Timken|National,img/lineas/sellos.webp
+automotriz,22,Automotriz ligero / pesado,Light / heavy-duty automotive,,,Gates|Meritor|ECOM|SYD|LTH,img/lineas/automotriz.webp
